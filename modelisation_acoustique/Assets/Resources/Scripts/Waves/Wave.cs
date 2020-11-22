@@ -8,7 +8,6 @@ namespace Resources.Scripts.Waves
         private Vector3 direction;
         private Vector3 origin;
         private Color rayColor;
-        //private RaycastHit hit;
         private float maxDistance = 100f;
 
         public Wave(Vector3 _direction, Vector3 _origin)
@@ -41,12 +40,6 @@ namespace Resources.Scripts.Waves
             get => maxDistance;
             set => maxDistance = value;
         }
-
-        /*public RaycastHit Hit
-        {
-            get => hit;
-            set => hit = value;
-        }*/
     }
     
 }
