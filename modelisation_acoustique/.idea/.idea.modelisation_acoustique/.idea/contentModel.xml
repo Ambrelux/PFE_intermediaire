@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\theok\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\theok\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_modelisation_acoustique.-1587013351.00" t="ExcludeRecursive" />
-    <e p="D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique" t="IncludeRecursive">
+    <e p="C:\Users\superadmin\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\superadmin\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_modelisation_acoustique.1728033415.00" t="ExcludeRecursive" />
+    <e p="C:\Users\superadmin\Documents\projet_kerpuy\PFE\modelisation_acoustique" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Resources" t="Include">
@@ -12,6 +12,7 @@
               <e p="cameraBehaviour.cs" t="Include" />
             </e>
             <e p="Waves" t="Include">
+              <e p="Sphere.cs" t="Include" />
               <e p="Wave.cs" t="Include" />
               <e p="waveBehaviour.cs" t="Include" />
             </e>

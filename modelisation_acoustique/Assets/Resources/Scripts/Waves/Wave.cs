@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
 namespace Resources.Scripts.Waves
@@ -9,6 +11,7 @@ namespace Resources.Scripts.Waves
         private Vector3 origin;
         private Color rayColor;
         private float maxDistance = 100f;
+
 
         public Wave(Vector3 _direction, Vector3 _origin)
         {
@@ -40,6 +43,8 @@ namespace Resources.Scripts.Waves
             get => maxDistance;
             set => maxDistance = value;
         }
+
+       
     }
     
 }

@@ -6,6 +6,9 @@ using UnityEngine;
 using Resources.Scripts.Waves;
 using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
+using Vector2 = UnityEngine.Vector2;
+using Resources.Scripts.Sphere;
+using Quaternion = UnityEngine.Quaternion;
 
 public class waveBehaviour : MonoBehaviour
 {
@@ -16,12 +19,17 @@ public class waveBehaviour : MonoBehaviour
     [SerializeField] private LayerMask layers;
     
     private List<Wave> wavesList = new List<Wave>();
+    private List<GameObject> spheresList = new List<GameObject>();
     public int nbWaves = 0;
     public float alpha = 15f;
+    public GameObject sphereObject;
+    public GameObject sphereParent;
     
     private void Start()
     {
         initWaves();
+        initSpheres();
+        waveData();        
     }
 
     void Update()
@@ -37,6 +45,7 @@ public class waveBehaviour : MonoBehaviour
         float yCoord;
         float xCoord;
         float zCoord;
+        
         
         for (int i =0; i < nbWaves; i++)
         {
@@ -70,6 +79,46 @@ public class waveBehaviour : MonoBehaviour
                 }                
             }
         }        
+    }
+
+    void waveData()
+    {
+        Vector3 direction;
+        Vector3 origin;
+        
+        for (int j = 0; j < wavesList.Count; j++)
+        {
+            direction = wavesList[j].Direction;
+            origin = wavesList[j].Origin;
+            Sphere sphereScript = spheresList[j].GetComponent<Sphere>();
+            for (int i = 1; i <= totalBounce; i++)
+            {
+                if (Physics.Raycast(origin, direction, out hit, wavesList[j].MaxDistance, layers))
+                {
+                    direction = Vector3.Reflect(direction.normalized, hit.normal);
+                    origin = hit.point + lineOffset * direction;
+                    sphereScript.WaveCoordData.Add(origin);
+                    sphereScript.WaveDirectionData.Add(direction);
+                    
+                }                
+            }
+        }        
+        
+    }
+
+    void initSpheres()
+    {
+        for (int i = 0; i < wavesList.Count; i++)
+        {
+            GameObject myNewSphere = Instantiate(sphereObject, wavesList[i].Origin, Quaternion.identity);
+            myNewSphere.transform.parent = sphereParent.transform;
+            spheresList.Add(myNewSphere);            
+        }
+    }
+
+    void moveSpheres()
+    {
+        
     }
 }
 
