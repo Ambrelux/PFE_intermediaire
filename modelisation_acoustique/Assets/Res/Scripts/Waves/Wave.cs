@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 
-namespace Resources.Scripts.Waves
+namespace Res.Scripts.Waves
 {
     public class Wave
     {

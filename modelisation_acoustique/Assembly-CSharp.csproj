@@ -51,6 +51,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Res\Scripts\Waves\Wave.cs" />
+     <Compile Include="Assets\Res\Scripts\Objects\ObjectData.cs" />
      <Compile Include="Assets\Res\Scripts\Camera\cameraBehaviour.cs" />
      <Compile Include="Assets\Res\Scripts\Waves\waveBehaviour.cs" />
      <Compile Include="Assets\Res\Scripts\Waves\Sphere.cs" />

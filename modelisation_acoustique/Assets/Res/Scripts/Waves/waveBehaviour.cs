@@ -2,12 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
+using Res.Scripts.Objects;
 using UnityEngine;
-using Resources.Scripts.Waves;
+using Res.Scripts.Waves;
 using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
 using Vector2 = UnityEngine.Vector2;
-using Resources.Scripts.Sphere;
+using Res.Scripts.Sphere;
 using Quaternion = UnityEngine.Quaternion;
 
 public class waveBehaviour : MonoBehaviour
@@ -85,12 +86,14 @@ public class waveBehaviour : MonoBehaviour
     {
         Vector3 direction;
         Vector3 origin;
-        
+        Sphere sphereScript;
+        ObjectData objectData;
+        float surface;
         for (int j = 0; j < wavesList.Count; j++)
         {
             direction = wavesList[j].Direction;
             origin = wavesList[j].Origin;
-            Sphere sphereScript = spheresList[j].GetComponent<Sphere>();
+            sphereScript = spheresList[j].GetComponent<Sphere>();
             for (int i = 1; i <= totalBounce; i++)
             {
                 if (Physics.Raycast(origin, direction, out hit, wavesList[j].MaxDistance, layers))
@@ -99,6 +102,27 @@ public class waveBehaviour : MonoBehaviour
                     origin = hit.point + lineOffset * direction;
                     sphereScript.WaveCoordData.Add(origin);
                     sphereScript.WaveDirectionData.Add(direction);
+
+                    if (hit.collider.tag == "Wall")
+                    {
+                        objectData = hit.collider.GetComponent<ObjectData>();
+
+                        if (objectData.width == 1f)
+                        {
+                            surface = objectData.heigth * objectData.depth;
+                            sphereScript.CollidedObjectList.Add(new Vector2(surface,objectData.absorptionCoef));    
+                        }
+                        else if (objectData.heigth == 1f)
+                        {
+                            surface = objectData.width * objectData.depth;
+                            sphereScript.CollidedObjectList.Add(new Vector2(surface,objectData.absorptionCoef));
+                        }
+                        else if (objectData.depth == 1f)
+                        {
+                            surface = objectData.heigth * objectData.width;
+                            sphereScript.CollidedObjectList.Add(new Vector2(surface,objectData.absorptionCoef));
+                        }
+                    }
                     
                 }                
             }
