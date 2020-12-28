@@ -14,6 +14,8 @@ namespace Res.Scripts.Objects
         public float width = 0;
         public float heigth = 0;
         public float depth = 0;
+        public float surface = 0;
+        private float absorptionArea = 0;
         private Renderer rend;
         private Vector3 objectSize;
 
@@ -24,6 +26,13 @@ namespace Res.Scripts.Objects
             width = objectSize.x;
             heigth = objectSize.y;
             depth = objectSize.z;
+            absorptionArea = absorptionCoef * surface;
+        }
+        
+        public float AbsorptionArea
+        {
+            get => absorptionArea;
+            set => absorptionArea = value;
         }
     }
     
