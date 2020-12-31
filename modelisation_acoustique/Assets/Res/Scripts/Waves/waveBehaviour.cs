@@ -21,17 +21,12 @@ public class waveBehaviour : MonoBehaviour
     
     private void Start()
     {
-        initWaves();
+        InitWaves();
         initSpheres();
-        waveData();        
+        WaveData();        
     }
-
-    // void Update()
-    // {
-    //     waveMovement();
-    // }
-
-    void initWaves()
+    
+    void InitWaves()
     {
         Vector3 direction;
         Vector3 origin;
@@ -51,7 +46,7 @@ public class waveBehaviour : MonoBehaviour
         }
     }
 
-    void waveMovement()
+    void WaveMovement()
     {
         Vector3 direction;
         Vector3 origin;
@@ -72,7 +67,7 @@ public class waveBehaviour : MonoBehaviour
         }        
     }
 
-    void waveData()
+    void WaveData()
     {
         Vector3 direction;
         Vector3 origin;

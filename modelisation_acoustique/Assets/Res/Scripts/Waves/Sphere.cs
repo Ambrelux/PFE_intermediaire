@@ -11,40 +11,47 @@ namespace Res.Scripts.Sphere
     public class Sphere : MonoBehaviour
     { 
         public GameObject sphereObject;
-        private List<Vector3> waveCoordData = new List<Vector3>();
-        private AcousticCalculation _acousticCalculation = new AcousticCalculation();
+        private List<Vector3> _waveCoordData = new List<Vector3>();
+        private AcousticCalculation _acousticCalculation;
 
         public List<Vector3> WaveCoordData
         {
-            get => waveCoordData;
-            set => waveCoordData = value;
+            get => _waveCoordData;
+            set => _waveCoordData = value;
         }
-        
-        IEnumerator MoveSphere()
+
+        private IEnumerator MoveSphere()
         {
             Vector3 endCoord;
+            Vector3 startCoord;
             Vector3 lastPosition;
             float distCovered = 0f;
             float fractionOfJourney;
-            if (waveCoordData.Count == 0)
+            float startTime;
+            float journeyLength;
+
+            if (_waveCoordData.Count == 0)
             {
                 yield break;
             }
 
-            for (int i = 1; i < waveCoordData.Count; i++)
+            for (int i = 1; i < _waveCoordData.Count; i++)
             {
-                endCoord = waveCoordData[i];
-                fractionOfJourney = 0f;
+                startCoord = _waveCoordData[i - 1];
+                endCoord = _waveCoordData[i];
+                startTime = Time.time;
+                journeyLength = Vector3.Distance(startCoord, endCoord);
+
                 while (Vector3.Distance(transform.position, endCoord) > 0.05f)
                 {
+                    fractionOfJourney = (Time.time - startTime) * 10f / journeyLength;
                     lastPosition = transform.position;
-                    if (_acousticCalculation.GetReverbDistance() > distCovered)
+                    if (_acousticCalculation.ReverbDistance > distCovered)
                     {
                         transform.position =
-                            Vector3.Lerp(transform.position, endCoord, fractionOfJourney);
+                            Vector3.Lerp(startCoord, endCoord, fractionOfJourney);
 
                         distCovered += Vector3.Distance(lastPosition, transform.position);
-                        fractionOfJourney += 0.0005f;
                         yield return null;
                     }
                     else
@@ -57,11 +64,14 @@ namespace Res.Scripts.Sphere
             
         }
 
+        public void Awake()
+        {
+            _acousticCalculation = new AcousticCalculation();
+        }
+
         public void Start()
         {
             StartCoroutine(MoveSphere());
-            
-            Debug.Log(_acousticCalculation.GetReverbTime());
         }
     }
     
