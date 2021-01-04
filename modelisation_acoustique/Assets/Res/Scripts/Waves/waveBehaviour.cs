@@ -3,7 +3,6 @@ using UnityEngine;
 using Res.Scripts.Waves;
 using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
-using Res.Scripts.Sphere;
 using Quaternion = UnityEngine.Quaternion;
 
 public class waveBehaviour : MonoBehaviour
@@ -22,7 +21,7 @@ public class waveBehaviour : MonoBehaviour
     private void Start()
     {
         InitWaves();
-        initSpheres();
+        InitSpheres();
         WaveData();        
     }
     
@@ -90,7 +89,7 @@ public class waveBehaviour : MonoBehaviour
         
     }
 
-    void initSpheres()
+    void InitSpheres()
     {
         for (int i = 0; i < wavesList.Count; i++)
         {

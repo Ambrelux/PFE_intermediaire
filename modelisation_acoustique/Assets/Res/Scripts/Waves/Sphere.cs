@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Collections;
 using Res.Scripts.Objects;
 
-namespace Res.Scripts.Sphere
+namespace Res.Scripts.Waves
 
 {
     public class Sphere : MonoBehaviour
