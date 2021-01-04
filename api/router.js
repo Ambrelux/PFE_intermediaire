@@ -1,7 +1,7 @@
 const R = require('ramda');
 
 const router = new (require('koa-router'))();
-const {Sound} = require('./models/sound.js');
+const {Sound} = require('./models.js');
 
 router.post('/createSound', async (ctx, next) => {
     try {
