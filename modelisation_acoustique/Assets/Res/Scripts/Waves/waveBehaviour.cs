@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using Res.Scripts.API;
 using UnityEngine;
 using Res.Scripts.Waves;
 using Random = UnityEngine.Random;
@@ -17,14 +19,26 @@ public class waveBehaviour : MonoBehaviour
     public int nbWaves = 0;
     public GameObject sphereObject;
     public GameObject sphereParent;
+    private APIRequest api = new APIRequest();
     
-    private void Start()
+    // private void Start()
+    // {
+    //     InitWaves();
+    //     InitSpheres();
+    //     WaveData();
+    // }
+
+    private void Update()
     {
-        InitWaves();
-        InitSpheres();
-        WaveData();        
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            InitWaves();
+            InitSpheres();
+            WaveData();
+            StartCoroutine(api.CreateSound(spheresList, 0));
+        }
     }
-    
+
     void InitWaves()
     {
         Vector3 direction;
@@ -33,6 +47,7 @@ public class waveBehaviour : MonoBehaviour
         float xCoord;
         float zCoord;
         
+        wavesList.Clear();
         
         for (int i =0; i < nbWaves; i++)
         {
@@ -91,6 +106,8 @@ public class waveBehaviour : MonoBehaviour
 
     void InitSpheres()
     {
+        spheresList.Clear();
+        
         for (int i = 0; i < wavesList.Count; i++)
         {
             GameObject myNewSphere = Instantiate(sphereObject, wavesList[i].Origin, Quaternion.identity);

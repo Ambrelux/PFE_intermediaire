@@ -8,6 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Res" t="Include">
           <e p="Scripts" t="Include">
+            <e p="API" t="Include">
+              <e p="APIRequest.cs" t="Include" />
+            </e>
             <e p="Camera" t="Include">
               <e p="cameraBehaviour.cs" t="Include" />
             </e>

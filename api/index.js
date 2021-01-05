@@ -14,7 +14,7 @@ server.use(router.routes());
 // CONNECT TO DATABASE
 
 const mongoose = require('mongoose');
-const db_URI = 'mongodb://mongo:27017/apiApp';
+const db_URI = 'mongodb://mongo:27017/apiApp4';
 const db_update = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
