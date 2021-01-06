@@ -30,7 +30,7 @@ public class waveBehaviour : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyUp(KeyCode.S))
+        if (Input.GetKeyUp(KeyCode.E))
         {
             InitWaves();
             InitSpheres();

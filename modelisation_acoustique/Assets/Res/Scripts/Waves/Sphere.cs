@@ -13,6 +13,10 @@ namespace Res.Scripts.Waves
         public GameObject sphereObject;
         private List<Vector3> _waveCoordData = new List<Vector3>();
         private AcousticCalculation _acousticCalculation;
+        private Color _startColor = new Color32(71, 255, 78, 255);
+        private Color _endColor = new Color32(255, 190, 13, 255);
+        private Color _objectColor;
+        private Renderer objectRenderer;
 
         public List<Vector3> WaveCoordData
         {
@@ -29,7 +33,7 @@ namespace Res.Scripts.Waves
             float fractionOfJourney;
             float startTime;
             float journeyLength;
-
+            float interColor = 0f;
             if (_waveCoordData.Count == 0)
             {
                 yield break;
@@ -52,11 +56,15 @@ namespace Res.Scripts.Waves
                             Vector3.Lerp(startCoord, endCoord, fractionOfJourney);
 
                         distCovered += Vector3.Distance(lastPosition, transform.position);
+                        interColor = distCovered / _acousticCalculation.ReverbDistance;
+                        _objectColor = Color.Lerp(_startColor, _endColor, interColor);
+                        objectRenderer.material.SetColor("_Color",_objectColor);
                         yield return null;
                     }
                     else
                     {
-                        yield break;  
+                        yield return new WaitForSeconds(5);
+                        Destroy(sphereObject);  
                     }
                 }
 
@@ -67,6 +75,8 @@ namespace Res.Scripts.Waves
         public void Awake()
         {
             _acousticCalculation = new AcousticCalculation();
+            objectRenderer = sphereObject.GetComponent<Renderer>();
+            objectRenderer.material.SetColor("_Color",_startColor);
         }
 
         public void Start()
