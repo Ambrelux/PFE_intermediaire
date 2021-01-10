@@ -54,7 +54,7 @@ namespace Res.Scripts.Objects
         {
             foreach (var gameObject in GameObject.FindGameObjectsWithTag(tag))
             {
-                list.Add(gameObject);    
+                list.Add(gameObject);
             }
         }
         

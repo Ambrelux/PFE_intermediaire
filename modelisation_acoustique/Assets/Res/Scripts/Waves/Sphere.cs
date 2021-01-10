@@ -14,7 +14,7 @@ namespace Res.Scripts.Waves
         private List<Vector3> _waveCoordData = new List<Vector3>();
         private AcousticCalculation _acousticCalculation;
         private Color _startColor = new Color32(71, 255, 78, 255);
-        private Color _endColor = new Color32(255, 190, 13, 255);
+        private Color _endColor = new Color32(255, 0,0 , 255);
         private Color _objectColor;
         private Renderer objectRenderer;
 
@@ -82,6 +82,7 @@ namespace Res.Scripts.Waves
         public void Start()
         {
             StartCoroutine(MoveSphere());
+            Debug.Log(_acousticCalculation.ReverbDistance);
         }
     }
     

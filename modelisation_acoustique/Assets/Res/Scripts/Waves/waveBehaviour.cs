@@ -20,7 +20,7 @@ public class waveBehaviour : MonoBehaviour
     public GameObject sphereObject;
     public GameObject sphereParent;
     private APIRequest api = new APIRequest();
-    
+    private Boolean trigger = false;
     // private void Start()
     // {
     //     InitWaves();
@@ -36,7 +36,15 @@ public class waveBehaviour : MonoBehaviour
             InitSpheres();
             WaveData();
             StartCoroutine(api.CreateSound(spheresList, 0));
+            trigger = true;
+
         }
+
+        // if (trigger)
+        // {
+        //     WaveMovement();
+        // }
+        //
     }
 
     void InitWaves()

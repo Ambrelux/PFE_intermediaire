@@ -4,8 +4,29 @@
     <e p="C:\Users\theok\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\theok\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_modelisation_acoustique.-1587013351.00" t="ExcludeRecursive" />
     <e p="D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AssetStoreOriginals" t="Include">
+          <e p="_SNAPS_PrototypingAssets" t="Include">
+            <e p="About" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ReadmeEditor.cs" t="Include" />
+                </e>
+                <e p="Readme.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PackageChecker" t="Include">
+                  <e p="PackageChecker.cs" t="Include" />
+                  <e p="PackageImportList.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Res" t="Include">
           <e p="Scripts" t="Include">
             <e p="API" t="Include">
