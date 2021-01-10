@@ -7,32 +7,21 @@ using UnityEngine;
 
 namespace Res.Scripts.Objects
 {
-
     public class ObjectData : MonoBehaviour
     {
         public float absorptionCoef = 0.5f;
-        public float width = 0;
-        public float heigth = 0;
-        public float depth = 0;
         public float surface = 0;
-        private float absorptionArea = 0;
-        private Renderer rend;
-        private Vector3 objectSize;
+        private float _absorptionArea = 0;
 
         private void Start()
         {
-            rend = GetComponent<Renderer>();
-            objectSize = rend.bounds.size;
-            width = objectSize.x;
-            heigth = objectSize.y;
-            depth = objectSize.z;
-            absorptionArea = absorptionCoef * surface;
+            _absorptionArea = absorptionCoef * surface;
         }
         
         public float AbsorptionArea
         {
-            get => absorptionArea;
-            set => absorptionArea = value;
+            get => _absorptionArea;
+            set => _absorptionArea = value;
         }
     }
     

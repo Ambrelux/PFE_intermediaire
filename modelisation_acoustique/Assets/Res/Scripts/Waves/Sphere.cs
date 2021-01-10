@@ -13,10 +13,10 @@ namespace Res.Scripts.Waves
         public GameObject sphereObject;
         private List<Vector3> _waveCoordData = new List<Vector3>();
         private AcousticCalculation _acousticCalculation;
-        private Color _startColor = new Color32(71, 255, 78, 255);
-        private Color _endColor = new Color32(255, 0,0 , 255);
+        private readonly Color _startColor = new Color32(71, 255, 78, 255);
+        private readonly Color _endColor = new Color32(255, 0,0 , 255);
         private Color _objectColor;
-        private Renderer objectRenderer;
+        private Renderer _objectRenderer;
 
         public List<Vector3> WaveCoordData
         {
@@ -26,39 +26,35 @@ namespace Res.Scripts.Waves
 
         private IEnumerator MoveSphere()
         {
-            Vector3 endCoord;
-            Vector3 startCoord;
-            Vector3 lastPosition;
-            float distCovered = 0f;
-            float fractionOfJourney;
-            float startTime;
-            float journeyLength;
-            float interColor = 0f;
             if (_waveCoordData.Count == 0)
             {
                 yield break;
             }
 
+            var distCovered = 0f;
+            
             for (int i = 1; i < _waveCoordData.Count; i++)
             {
-                startCoord = _waveCoordData[i - 1];
-                endCoord = _waveCoordData[i];
-                startTime = Time.time;
-                journeyLength = Vector3.Distance(startCoord, endCoord);
-
+                var startCoord = _waveCoordData[i - 1];
+                var endCoord = _waveCoordData[i];
+                var startTime = Time.time;
+                var journeyLength = Vector3.Distance(startCoord, endCoord);
+                
                 while (Vector3.Distance(transform.position, endCoord) > 0.05f)
                 {
-                    fractionOfJourney = (Time.time - startTime) * 10f / journeyLength;
-                    lastPosition = transform.position;
+                    var fractionOfJourney = (Time.time - startTime) * 10f / journeyLength;
+                    var lastPosition = transform.position;
+                    
                     if (_acousticCalculation.ReverbDistance > distCovered)
                     {
                         transform.position =
                             Vector3.Lerp(startCoord, endCoord, fractionOfJourney);
 
                         distCovered += Vector3.Distance(lastPosition, transform.position);
-                        interColor = distCovered / _acousticCalculation.ReverbDistance;
+                        
+                        var interColor = distCovered / _acousticCalculation.ReverbDistance;
                         _objectColor = Color.Lerp(_startColor, _endColor, interColor);
-                        objectRenderer.material.SetColor("_Color",_objectColor);
+                        _objectRenderer.material.SetColor("_Color",_objectColor);
                         yield return null;
                     }
                     else
@@ -75,14 +71,13 @@ namespace Res.Scripts.Waves
         public void Awake()
         {
             _acousticCalculation = new AcousticCalculation();
-            objectRenderer = sphereObject.GetComponent<Renderer>();
-            objectRenderer.material.SetColor("_Color",_startColor);
+            _objectRenderer = sphereObject.GetComponent<Renderer>();
+            _objectRenderer.material.SetColor("_Color",_startColor);
         }
 
         public void Start()
         {
             StartCoroutine(MoveSphere());
-            Debug.Log(_acousticCalculation.ReverbDistance);
         }
     }
     
