@@ -31,4 +31,14 @@ router.get("/findSoundById/:id", async (ctx, next) => {
     }
 });
 
+router.get("/deleteSounds", async(ctx,next) =>{
+   try{
+       const result = await Sound.deleteMany({ frequency: "0" })  .exec();
+       ctx.body = "deleted";
+   } catch (error){
+       ctx.body = "error while deleting";
+   }
+
+});
+
 module.exports = {router};

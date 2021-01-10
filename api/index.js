@@ -7,6 +7,14 @@
 const server = new (require('koa'))();
 const {router} = require('./router');
 
+server.use(require('koa-body')({
+    multipart: true,
+    formLimit: "10mb",
+    jsonLimit: "50mb",
+    textLimit: "10mb",
+    enableTypes: ['json', 'form', 'text']
+}));
+
 server.use(require('koa-logger')())
 server.use(require('koa-bodyparser')());
 server.use(router.routes());
