@@ -32,6 +32,8 @@ namespace Res.Scripts.Waves
                 WaveData();
                 StartCoroutine(ApiRequest.CreateSound(_spheresList, 0));
             }
+            
+            DrawRaycast();
         }
 
         private void InitWaves()
@@ -63,6 +65,28 @@ namespace Res.Scripts.Waves
             }
         }
 
+        private void DrawRaycast()
+        {
+            for(int i = 0 ; i < _spheresList.Count; i++)
+            {
+                var sphereScript = _spheresList[i].GetComponent<Sphere>();
+
+                if (sphereScript.NbBounce > 0)
+                {
+                    var direction = (sphereScript.WaveCoordData[1]-sphereScript.WaveCoordData[0]).normalized;
+                    var origin = sphereScript.WaveCoordData[0];
+                
+                    for (var j = 1; j <= sphereScript.NbBounce; j++)
+                    {
+                        if (!Physics.Raycast(origin, direction, out _hit, 100, layers)) continue;
+                        Debug.DrawLine(origin, _hit.point, sphereScript.RayColor);
+                        direction = Vector3.Reflect(direction.normalized, _hit.normal);
+                        origin = _hit.point + lineOffset * direction;
+                    }    
+                }
+            }
+        }
+        
         private void WaveData()
         {
             for (var j = 0; j < _wavesList.Count; j++)

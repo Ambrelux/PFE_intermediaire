@@ -4,7 +4,6 @@ using Vector3 = UnityEngine.Vector3;
 using System.Collections.Generic;
 using System.Collections;
 using System.Globalization;
-using Res.Scripts.Objects;
 using Res.Scripts.Waves;
 using UnityEngine.Networking;
 

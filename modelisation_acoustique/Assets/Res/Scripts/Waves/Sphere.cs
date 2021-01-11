@@ -3,7 +3,8 @@ using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 using System.Collections.Generic;
 using System.Collections;
-using Res.Scripts.Objects;
+using Random = UnityEngine.Random;
+using Res.Scripts.Object;
 
 namespace Res.Scripts.Waves
 
@@ -17,6 +18,14 @@ namespace Res.Scripts.Waves
         private readonly Color _endColor = new Color32(255, 0,0 , 255);
         private Color _objectColor;
         private Renderer _objectRenderer;
+        private int nbBounce = 0;
+        private Color _rayColor;
+        public Color RayColor => _rayColor;
+
+        public int NbBounce
+        {
+            get => nbBounce;
+        }
 
         public List<Vector3> WaveCoordData
         {
@@ -59,8 +68,9 @@ namespace Res.Scripts.Waves
                     }
                     else
                     {
+                        nbBounce = i;
                         yield return new WaitForSeconds(5);
-                        Destroy(sphereObject);  
+                        //Destroy(sphereObject);  
                     }
                 }
 
@@ -73,6 +83,8 @@ namespace Res.Scripts.Waves
             _acousticCalculation = new AcousticCalculation();
             _objectRenderer = sphereObject.GetComponent<Renderer>();
             _objectRenderer.material.SetColor("_Color",_startColor);
+            _rayColor = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+
         }
 
         public void Start()

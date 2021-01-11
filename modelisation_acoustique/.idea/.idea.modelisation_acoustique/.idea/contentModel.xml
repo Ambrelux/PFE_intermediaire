@@ -33,11 +33,11 @@
               <e p="APIRequest.cs" t="Include" />
             </e>
             <e p="Camera" t="Include">
-              <e p="cameraBehaviour.cs" t="Include" />
+              <e p="CameraBehaviour.cs" t="Include" />
             </e>
-            <e p="Objects" t="Include">
+            <e p="Object" t="Include">
               <e p="AcousticCalculation.cs" t="Include" />
-              <e p="objectData.cs" t="Include" />
+              <e p="ObjectData.cs" t="Include" />
             </e>
             <e p="UserInterface" t="Include">
               <e p="UiManager.cs" t="Include" />
