@@ -31,6 +31,7 @@
           <e p="Scripts" t="Include">
             <e p="API" t="Include">
               <e p="APIRequest.cs" t="Include" />
+              <e p="data.txt" t="Include" />
             </e>
             <e p="Camera" t="Include">
               <e p="CameraBehaviour.cs" t="Include" />

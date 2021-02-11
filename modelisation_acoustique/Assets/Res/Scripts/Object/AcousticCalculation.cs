@@ -16,7 +16,7 @@ namespace Res.Scripts.Object
             AddGameObjectInList(personList,"Person");            
             var totalAbsorptionArea = GetAbsorptionArea(materialList) + GetAbsorptionArea(furnitureList)
                                                                       + GetAbsorptionArea(personList);
-            const float roomVolume = 172.8f;
+            const float roomVolume = 756f;
             var reverbTime = (0.16f * roomVolume) / totalAbsorptionArea;
             ReverbDistance = reverbTime * 340.29f;
         }

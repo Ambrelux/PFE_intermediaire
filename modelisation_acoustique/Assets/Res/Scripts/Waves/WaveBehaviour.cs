@@ -33,7 +33,11 @@ namespace Res.Scripts.Waves
                 StartCoroutine(ApiRequest.CreateSound(_spheresList, 0));
             }
             
-            DrawRaycast();
+            if (Input.GetKeyUp(KeyCode.F))
+            {
+                StartCoroutine((ApiRequest.FindSound()));
+            }
+            //DrawRaycast();
         }
 
         private void InitWaves()

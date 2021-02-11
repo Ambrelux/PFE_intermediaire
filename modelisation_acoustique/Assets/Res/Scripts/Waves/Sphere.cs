@@ -51,7 +51,7 @@ namespace Res.Scripts.Waves
                 
                 while (Vector3.Distance(transform.position, endCoord) > 0.05f)
                 {
-                    var fractionOfJourney = (Time.time - startTime) * 10f / journeyLength;
+                    var fractionOfJourney = (Time.time - startTime) * 20f / journeyLength;
                     var lastPosition = transform.position;
                     
                     if (_acousticCalculation.ReverbDistance > distCovered)
@@ -70,7 +70,7 @@ namespace Res.Scripts.Waves
                     {
                         nbBounce = i;
                         yield return new WaitForSeconds(5);
-                        //Destroy(sphereObject);  
+                        Destroy(sphereObject);  
                     }
                 }
 
@@ -90,8 +90,7 @@ namespace Res.Scripts.Waves
         public void Start()
         {
             StartCoroutine(MoveSphere());
+            Debug.Log(_acousticCalculation.ReverbDistance);
         }
-    }
-    
-   
+    } 
 }

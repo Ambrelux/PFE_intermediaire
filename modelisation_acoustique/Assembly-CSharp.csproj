@@ -51,14 +51,15 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Res\Scripts\Waves\Wave.cs" />
+     <Compile Include="Assets\Res\Scripts\Object\ObjectData.cs" />
      <Compile Include="Assets\Res\Scripts\Camera\CameraBehaviour.cs" />
      <Compile Include="Assets\Res\Scripts\API\APIRequest.cs" />
+     <Compile Include="Assets\Res\Scripts\Object\AcousticCalculation.cs" />
      <Compile Include="Assets\Res\Scripts\Waves\WaveBehaviour.cs" />
      <Compile Include="Assets\Res\Scripts\Waves\Sphere.cs" />
      <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\Res\Scripts\UserInterface\UiManager.cs" />
-     <Compile Include="Assets\Res\Scripts\Object\AcousticCalculation.cs" />
-     <Compile Include="Assets\Res\Scripts\Object\ObjectData.cs" />
+     <None Include="Assets\Res\Scripts\API\data.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

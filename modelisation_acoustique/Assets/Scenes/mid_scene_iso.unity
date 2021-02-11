@@ -5061,7 +5061,7 @@ MonoBehaviour:
   layers:
     serializedVersion: 2
     m_Bits: 4294967295
-  nbWaves: 1
+  nbWaves: 10
   sphereObject: {fileID: 8013552634773973037, guid: fd8318c629f0c4c4ab09eff9fabcd2a6,
     type: 3}
   sphereParent: {fileID: 1288609774}
