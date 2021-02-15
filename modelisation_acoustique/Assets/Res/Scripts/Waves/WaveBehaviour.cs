@@ -22,6 +22,10 @@ namespace Res.Scripts.Waves
         public GameObject sphereParent;
         private readonly ApiRequest _api = new ApiRequest();
 
+        private void Awake()
+        {
+            CreateSpheres();
+        }
 
         private void Update()
         {
@@ -33,10 +37,10 @@ namespace Res.Scripts.Waves
                 StartCoroutine(ApiRequest.CreateSound(_spheresList, 0));
             }
             
-            if (Input.GetKeyUp(KeyCode.F))
-            {
-                StartCoroutine((ApiRequest.FindSound()));
-            }
+            // if (Input.GetKeyUp(KeyCode.F))
+            // {
+            //     StartCoroutine((ApiRequest.FindSound()));
+            // }
             //DrawRaycast();
         }
 
@@ -51,24 +55,7 @@ namespace Res.Scripts.Waves
                 _wavesList.Add(new Wave(direction.normalized, origin));
             }
         }
-
-        private void WaveMovement()
-        {
-            foreach (var wave in _wavesList)
-            {
-                var direction = wave.Direction;
-                var origin = wave.Origin;
-                
-                for (var i = 1; i <= totalBounce; i++)
-                {
-                    if (!Physics.Raycast(origin, direction, out _hit, wave.MaxDistance, layers)) continue;
-                    Debug.DrawLine(origin, _hit.point, wave.RayColor);
-                    direction = Vector3.Reflect(direction.normalized, _hit.normal);
-                    origin = _hit.point + lineOffset * direction;
-                }
-            }
-        }
-
+        
         private void DrawRaycast()
         {
             for(int i = 0 ; i < _spheresList.Count; i++)
@@ -106,21 +93,33 @@ namespace Res.Scripts.Waves
                     origin = _hit.point + lineOffset * direction;
                     sphereScript.WaveCoordData.Add(origin);
                 }
+                
+                sphereScript.StartMovement();
             }        
         
         }
 
         private void InitSpheres()
         {
-            _spheresList.Clear();
-        
-            for (int i = 0; i < _wavesList.Count; i++)
+            for(var i = 0 ; i < _spheresList.Count ; i++)
             {
-                var myNewSphere = Instantiate(sphereObject, _wavesList[i].Origin, Quaternion.identity);
-                myNewSphere.transform.parent = sphereParent.transform;
-                _spheresList.Add(myNewSphere);
                 var sphereScript = _spheresList[i].GetComponent<Sphere>();
+                sphereScript.WaveCoordData.Clear();
+                sphereScript.NbBounce = 0;
                 sphereScript.WaveCoordData.Add(_wavesList[i].Origin);
+                _spheresList[i].SetActive(true);
+            }
+        }
+
+
+        private void CreateSpheres()
+        {
+            GameObject tmpSphere;
+            for (int i = 0; i < nbWaves; i++)
+            {
+                tmpSphere = Instantiate(sphereObject, gameObject.transform, true);
+                tmpSphere.SetActive(false);
+                _spheresList.Add(tmpSphere);
             }
         }
     }

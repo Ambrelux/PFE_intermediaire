@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 namespace Res.Scripts.Object
@@ -16,7 +15,8 @@ namespace Res.Scripts.Object
             AddGameObjectInList(personList,"Person");            
             var totalAbsorptionArea = GetAbsorptionArea(materialList) + GetAbsorptionArea(furnitureList)
                                                                       + GetAbsorptionArea(personList);
-            const float roomVolume = 756f;
+            Debug.Log(totalAbsorptionArea);
+            const float roomVolume = 200f;
             var reverbTime = (0.16f * roomVolume) / totalAbsorptionArea;
             ReverbDistance = reverbTime * 340.29f;
         }
@@ -24,7 +24,13 @@ namespace Res.Scripts.Object
         
         private static float GetAbsorptionArea(List<GameObject> list)
         {
-            return list.Select(gameObject => gameObject.GetComponent<ObjectData>()).Where(gameObjectData => gameObjectData != null).Sum(gameObjectData => gameObjectData.AbsorptionArea);
+            var totalAbsorptionArea = 0f; 
+            for(var i = 0; i< list.Count; i++)
+            {
+                totalAbsorptionArea += list[i].GetComponent<ObjectData>().surface * list[i].GetComponent<ObjectData>().absorptionCoef;
+            }
+
+            return totalAbsorptionArea;
         }
 
         private static void AddGameObjectInList(List<GameObject> list, string tag)

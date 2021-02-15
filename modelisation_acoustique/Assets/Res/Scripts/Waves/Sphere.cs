@@ -18,13 +18,14 @@ namespace Res.Scripts.Waves
         private readonly Color _endColor = new Color32(255, 0,0 , 255);
         private Color _objectColor;
         private Renderer _objectRenderer;
-        private int nbBounce = 0;
+        private int _nbBounce = 0;
         private Color _rayColor;
         public Color RayColor => _rayColor;
 
         public int NbBounce
         {
-            get => nbBounce;
+            get => _nbBounce;
+            set => _nbBounce = value;
         }
 
         public List<Vector3> WaveCoordData
@@ -68,9 +69,9 @@ namespace Res.Scripts.Waves
                     }
                     else
                     {
-                        nbBounce = i;
+                        _nbBounce = i;
                         yield return new WaitForSeconds(5);
-                        Destroy(sphereObject);  
+                        sphereObject.SetActive(false);
                     }
                 }
 
@@ -84,13 +85,13 @@ namespace Res.Scripts.Waves
             _objectRenderer = sphereObject.GetComponent<Renderer>();
             _objectRenderer.material.SetColor("_Color",_startColor);
             _rayColor = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-
         }
 
-        public void Start()
+        public void StartMovement()
         {
             StartCoroutine(MoveSphere());
             Debug.Log(_acousticCalculation.ReverbDistance);
         }
+        
     } 
 }
