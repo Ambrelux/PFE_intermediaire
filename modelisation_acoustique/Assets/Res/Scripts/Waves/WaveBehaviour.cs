@@ -35,13 +35,14 @@ namespace Res.Scripts.Waves
                 InitWaves();
                 InitSpheres();
                 WaveData();
-                StartCoroutine(ApiRequest.CreateSound(_spheresList, 0));
+                StartCoroutine(ApiRequest.InsertSound(_spheresList, 250));
+                //StartCoroutine(ApiRequest.CreateSound(_spheresList, 0));
             }
             
-            // if (Input.GetKeyUp(KeyCode.F))
-            // {
-            //     StartCoroutine((ApiRequest.FindSound()));
-            // }
+            if (Input.GetKeyUp(KeyCode.F))
+            {
+                StartCoroutine((ApiRequest.FindSound()));
+            }
             //DrawRaycast();
         }
 

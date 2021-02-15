@@ -5,93 +5,175 @@ using System.Collections.Generic;
 using System.Collections;
 using System.Globalization;
 using System.IO;
+using System.Text;
 using Res.Scripts.Waves;
 using UnityEditor;
 using UnityEngine.Networking;
-
+using Random = UnityEngine.Random;
 
 namespace Res.Scripts.API
 {
     public class ApiRequest
     {
+        public const string URL = "http://localhost:3000/";
 
-        public static IEnumerator CreateSound(List<GameObject> spheresList, int frequency)
+        private static string ParseSoundToJson(List<GameObject> spheresList, int frequency)
         {
-            var form = new WWWForm();
-            var sphereForm = "[";
-            form.AddField("emitted", DateTime.Now.ToString(CultureInfo.InvariantCulture));
-            form.AddField("frequency", frequency.ToString());
-
+            var spheresCoord = new List<string>();
             for (var i = 0; i < spheresList.Count; i++)
             {
-                sphereForm = sphereForm + "{ \"key\":" + i + ", \"coordinates\":\"[";
-                var waveCoordData = spheresList[i].GetComponent<Sphere>().WaveCoordData;
-                for (int j = 0; j < waveCoordData.Count; j++)
-                {
-                    sphereForm = sphereForm + "[" + waveCoordData[j].x.ToString().Replace(",", ".") +
-                                 "," + waveCoordData[j].y.ToString().Replace(",", ".") + "," +
-                                 waveCoordData[j].z.ToString().Replace(",", ".") + "]";
-                    if (j < waveCoordData.Count - 1)
-                    {
-                        sphereForm += ",";
-                    }
-                }
 
-                sphereForm += "]}";
-
-                if (i < spheresList.Count - 1)
-                {
-                    sphereForm += ",";
-                }
+                SphereCoords sphereCoords = new SphereCoords(spheresList[i].GetComponent<Sphere>().WaveCoordData);
+                spheresCoord.Add(JsonUtility.ToJson(sphereCoords));
             }
 
-            sphereForm += "]";
+            var newSound = new Sound(250, spheresCoord);
+            var json = JsonUtility.ToJson(newSound);
+            Debug.Log(json);
+            return json;
+        }
+        
+        public static IEnumerator InsertSound(List<GameObject> spheresList, int frequency)
+        {
+            var json = ParseSoundToJson(spheresList, frequency);
 
-            form.AddField("spheres", sphereForm);
+            var request = new UnityWebRequest ("http://localhost:3000/createSound", "POST");
+            byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
+            request.uploadHandler = (UploadHandler) new UploadHandlerRaw(bodyRaw);
+            request.downloadHandler = (DownloadHandler) new DownloadHandlerBuffer();
+            request.SetRequestHeader("Content-Type", "application/json");
+            yield return request.SendWebRequest();
 
+            if (request.error != null)
+            {
+                Debug.Log("Erro: " + request.error);
+            }
+            else
+            {
+                Debug.Log("All OK");
+                Debug.Log("Status Code: " + request.responseCode);
+            }
+            
+            // string path = "Assets/Res/Scripts/API/datainsert.txt";
+            //         
+            // //Write some text to the test.txt file
+            // StreamWriter writer = new StreamWriter(path, true);
+            // writer.WriteLine(json);
+            // writer.Close();
+            //
+            // yield return null;
+        }
 
-            using (var www = UnityWebRequest.Post("http://localhost:3000/createSound", form))
+        public static IEnumerator FindSound()
+        {
+            using (UnityWebRequest www = UnityWebRequest.Get("http://localhost:3000/findSound"))
             {
                 yield return www.SendWebRequest();
-
+        
                 if (www.isNetworkError || www.isHttpError)
                 {
                     Debug.Log(www.error);
                 }
                 else
                 {
-                    Debug.Log("Form upload complete");
+                    string result = www.downloadHandler.text;
+                    Sound[] objects = JsonHelper.getJsonArray<Sound> (result);
+                    Debug.Log(objects[0].spheres[0]);
+                    Debug.Log(objects[1]._id);
+                    // Debug.Log(result);
+                    // string path = "Assets/Res/Scripts/API/datafind.txt";
+                    //
+                    // //Write some text to the test.txt file
+                    // StreamWriter writer = new StreamWriter(path, true);
+                    // writer.WriteLine(result);
+                    // writer.Close();
                 }
             }
         }
-
-
-        // public static IEnumerator FindSound()
-        // {
-        //     using (UnityWebRequest www = UnityWebRequest.Get("http://localhost:3000/findSound"))
-        //     {
-        //         yield return www.SendWebRequest();
-        //
-        //         if (www.isNetworkError || www.isHttpError)
-        //         {
-        //             Debug.Log(www.error);
-        //         }
-        //         else
-        //         {
-        //             string result = www.downloadHandler.
-        //             Player[] player = JsonHelper.FromJson<Player>(result);
-        //             Debug.Log(player[0]._id);
-        //             // Debug.Log(result);
-        //             //
-        //             //
-        //             // string path = "Assets/Res/Scripts/API/data.txt";
-        //             //
-        //             // //Write some text to the test.txt file
-        //             // StreamWriter writer = new StreamWriter(path, true);
-        //             // writer.WriteLine(result);
-        //             // writer.Close();
-        //         }
-        //     }
-        // }
     }
 }
+
+public class JsonHelper
+{
+    public static T[] getJsonArray<T>(string json)
+    {
+        string newJson = "{ \"array\": " + json + "}";
+        Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>> (newJson);
+        return wrapper.array;
+    }
+ 
+    [Serializable]
+    private class Wrapper<T>
+    {
+        public T[] array;
+    }
+}
+
+
+
+/*
+ *
+ *
+ *
+ *
+ *
+ * 
+*/
+
+[Serializable]
+public class Sound
+{
+    public int _id;
+    public string date;
+    public int frequency;
+    public List<string> spheres;
+
+    public Sound(int _frequency, List<string> _spheres)
+    {
+        _id = Random.Range(0,999999);
+        date = DateTime.Now.ToString(CultureInfo.InvariantCulture);
+        frequency = _frequency;
+        spheres = _spheres;
+    }
+}
+
+[Serializable]
+public class SphereCoords
+{
+    public List<Vector3> sphereCoords;
+
+    public SphereCoords(List<Vector3> _coords)
+    {
+        sphereCoords = _coords;
+    }
+}
+// public class Sound
+// {
+//     public int id;
+//     public string date;
+//     public int frequency;
+//     public List<Vector3> spheres;
+//
+//     public Sound(int _frequency, List<Vector3> _spheres)
+//     {
+//         id = Random.Range(0,999999);
+//         date = DateTime.Now.ToString(CultureInfo.InvariantCulture);
+//         frequency = _frequency;
+//         spheres = _spheres;
+//     }
+// }
+// public class Sound
+// {
+//     public int id;
+//     public string date;
+//     public int frequency;
+//     public List<List<Vector3>> spheres;
+//
+//     public Sound(int _frequency, List<List<Vector3>> _spheres)
+//     {
+//         id = Random.Range(0,999999);
+//         date = DateTime.Now.ToString(CultureInfo.InvariantCulture);
+//         frequency = _frequency;
+//         spheres = _spheres;
+//     }
+// }

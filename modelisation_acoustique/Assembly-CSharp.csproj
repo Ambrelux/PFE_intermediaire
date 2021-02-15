@@ -59,7 +59,8 @@
      <Compile Include="Assets\Res\Scripts\Waves\Sphere.cs" />
      <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\Res\Scripts\UserInterface\UiManager.cs" />
-     <None Include="Assets\Res\Scripts\API\data.txt" />
+     <None Include="Assets\Res\Scripts\API\datainsert.txt" />
+     <None Include="Assets\Res\Scripts\API\datafind.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
