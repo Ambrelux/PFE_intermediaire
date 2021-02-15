@@ -5,6 +5,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
 using Quaternion = UnityEngine.Quaternion;
+using Res.Scripts.Object;
 
 namespace Res.Scripts.Waves
 {
