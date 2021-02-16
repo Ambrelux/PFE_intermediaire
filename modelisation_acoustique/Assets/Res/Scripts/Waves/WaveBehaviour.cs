@@ -36,7 +36,6 @@ namespace Res.Scripts.Waves
                 InitSpheres();
                 WaveData();
                 StartCoroutine(ApiRequest.InsertSound(_spheresList, 250));
-                //StartCoroutine(ApiRequest.CreateSound(_spheresList, 0));
             }
             
             if (Input.GetKeyUp(KeyCode.F))

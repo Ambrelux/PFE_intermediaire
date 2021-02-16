@@ -10,7 +10,7 @@ using Res.Scripts.Waves;
 using UnityEditor;
 using UnityEngine.Networking;
 using Random = UnityEngine.Random;
-
+using Res.Scripts.UserInterface;
 namespace Res.Scripts.API
 {
     public class ApiRequest
@@ -46,7 +46,7 @@ namespace Res.Scripts.API
 
             if (request.error != null)
             {
-                Debug.Log("Erro: " + request.error);
+                Debug.Log("Error: " + request.error);
             }
             else
             {
@@ -77,9 +77,10 @@ namespace Res.Scripts.API
                 else
                 {
                     string result = www.downloadHandler.text;
-                    Sound[] objects = JsonHelper.getJsonArray<Sound> (result);
-                    Debug.Log(objects[0].spheres[0]);
-                    Debug.Log(objects[1]._id);
+                    UiSounds.sounds = JsonHelper.getJsonArray<Sound>(result);
+                    // Sound[] sounds = JsonHelper.getJsonArray<Sound> (result);
+                    // Debug.Log(sounds[0].spheres[0]);
+                    // Debug.Log(sounds[1]._id);
                     // Debug.Log(result);
                     // string path = "Assets/Res/Scripts/API/datafind.txt";
                     //

@@ -20,49 +20,225 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/../api/models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../api/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/API/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/API/data.txt.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/09/0941e1b63bb267fe052d8e838e115266" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/15/15bbb6be55dc0c10ff996b9f76eff2f7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/23/2395271385c547592bbc59513ee5cc14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2a/2a645201e8f84ba163b4e11dbdc8b76c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3b/3b1c599c5e79c465b424289779764ccf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/47/47346c36c658ecbbe2c535fbc7d8faaa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/65/656a8ec6ec9b98b6aa2069baecd20a14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/66/66337ed12975bbe291241cfe79cd07e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/70/70380839913896b0ca683fec456c4b91" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/86/864ac3046fc37926f4521dfe56c05459" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/89/89e81ef0cb6519a66fd6028d30d9cd78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8b/8bf6ef6506de03f9fffb5b45acc39152" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8f/8fd87d76dc2e48856a40f170ee7ec2a7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/95/955759bde8ae0bbc66b7d75ee44dcd47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bd/bd8a6a4bea52318cc56c60367fd5e623" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c2/c21a039ea4560397eccc6166cf36a5fd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c4/c413dc143738fac6cfee83629602d718" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/dd/ddfd0d493079f0d44f78820f0ae54ed4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e8/e83bb5e4facfb2af38b20f1c2614630b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ea/ea307c3e0c2762177242ac9109fef37c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/eb/eb07a65325aa9c12a665fca253c03083" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/eb/eb7e6e4f42a61a72c3c2f73b92325899" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ee/eeec185632a07174fc78c6cc96c5b069" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f4/f4683d3529d4205c090c39f1c2342809" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f8/f823ccaddf9e2a3a9f6806706c7278c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f8/f8553afbfc64b3c105c96dec6330153c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fc/fc26d45f1460f602cb3267e8b8381c3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/01/01ba840098fcb5caebdc5158cda57a1e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/09/0922023d025bcacfcb05cceeb5cd3f29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0a/0a0469979b11f95c5ae2d5bee6336d91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0e/0e309650fd12903e2b0932a4a11336ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/13/133b908c835f9831563ca3b33f8d52eb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/15/156076815c1b9ed0a46e9689f47e0806" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/17/1743c177da8e2b1ad61cafb00ca80cd0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/22/22142e9a6043ddf64d005101c78d99ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/27/27ac06fd866b388e72a7fc2fcc88db3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2c/2c772bb5a28515d5c1cafdbfb17df925" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/32/3274cfa63fe75e73457d4a1974ea6c70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/36/3637cb83cd9d05905952c477cef3a8be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/45/453684d31848cf0df58a0446b5da47df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4d/4d55b67f68186a393373e488272b69f0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/59/5957c5b6b8749834fd34730f5987bad5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5d/5df04b2f9f253393835d6039117ec75b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/60/60a3d9ea0506d1cbd0b0cbbfa1ea837d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/62/629a6c88fde81fb5d82dd17062ed8de2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/64/64022181e142bb5c7cec9e0bc99a269e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/64/647b2523add908d8366471d384f6fb96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6c/6c28924b31215f4beabc3a5c6746993b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6c/6cd3e32ec75012182c970c2d19feba36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/74/74359d56513a13df5d0df3bc0b850543" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/79/79dd5e1ebdacac10fea90175f59e53f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7d/7dea32acc84e01c2a5f89dc0f569ed22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/81/818db090cd7a27923db08b4e3b30c8fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/8d/8df8fd68f88ff16fd6a727b217cbfbcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/92/929273d10ee96f3d974d9bbd3aeeaa61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/93/935644c2c892a5a266a9605ae9054ccc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/94/94c631138e12616339e669f0654ca6de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9a/9a9a5dd7a098baa5bdda8be0518c7c74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9f/9ff5f489f0874ae92627ddc3f436abae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a1/a10aeaa505b213b616aae45f5fcd3cde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a4/a40c453fc654841baff080af43bb4db3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/af/afaa0919d5f06ab599724a6e8e893b38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bb/bba3cf91d0e4a74c2e45f5bbdd457646" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/be/be88e42d2d985c11c235a0f76c04dc5b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c3/c3a74ffa4f5a4b6f5393a43c4c5e13dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c3/c3ba10d55de6b13b2a24a05fc1a1e6d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c5/c5cbcb69fcf2f6571dae9323d29f4319" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c9/c984909ea325f63fbdbd081f9482ab87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ca/caac78a653c499170128dd925499af69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cc/cc78f73d03dadd9da509362ef58e5d78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d7/d723c52964fde2f8fc5f35b6c46e9ea2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d8/d88fe4adf35bac6b974c8f5cec707515" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/eb/eba0cc6786869b9043ae9ca8f36b64db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/eb/ebdbabc07e6936c33a9bd1c5e04c83f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ed/ed2b8efc2d42aab1f58d1ab005004630" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ed/ed2febdaf28eab2632a674de05eefe8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f1/f1058e085f8d20553e936d8397809a32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f2/f26a8f366ec9b2b68c0f75cddb9885b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f4/f4987b340ecb9ea46fd597f1e5c3f0aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/AssetImportState" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AssetImportState" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/ArmModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/ArmModels/ArmModelEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/ArmModels/ArmModelEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/ArmModels/SwingArmModelEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/ArmModels/SwingArmModelEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/ArmModels/TransitionArmModelEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/ArmModels/TransitionArmModelEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/CameraOffsetEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/CameraOffsetEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/LegacyInputHelpersEditor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/LegacyInputHelpersEditor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/MenuUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/MenuUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/SeedXRInputBindings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/SeedXRInputBindings/SeedXRInputBindings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/SeedXRInputBindings/SeedXRInputBindings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/TrackedPoseDriver.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/TrackedPoseDriver/TPDConfigurationProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/TrackedPoseDriver/TPDConfigurationProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/TrackedPoseDriver/TrackedPoseDriverEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/TrackedPoseDriver/TrackedPoseDriverEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/LICENSE.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Prefabs/XRRig.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Prefabs/XRRig.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/ArmModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/ArmModels/ArmModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/ArmModels/ArmModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/ArmModels/SwingArmModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/ArmModels/SwingArmModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/ArmModels/TransitionArmModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/ArmModels/TransitionArmModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/CameraOffset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/CameraOffset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/LegacyInputHelpers.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/LegacyInputHelpers.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver/BasePoseProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver/BasePoseProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver/TrackedPoseDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver/TrackedPoseDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Editor/LegacyInputHelpersEditorTests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Editor/LegacyInputHelpersEditorTests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Editor/SeedXRInputBindings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Editor/SeedXRInputBindings/SeedXRInputBindingsTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Editor/SeedXRInputBindings/SeedXRInputBindingsTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Runtime/TrackedPoseDriver.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Runtime/TrackedPoseDriver/TrackedPoseDriverTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Runtime/TrackedPoseDriver/TrackedPoseDriverTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Third Party Notices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/Third Party Notices.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.4/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Analytics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Analytics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Analytics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Analytics.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Csg.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Csg.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Csg.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Csg.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.KdTree.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.KdTree.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Stl.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Stl.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.Purchasing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.Purchasing.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.Purchasing.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.Purchasing.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.SpatialTracking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.SpatialTracking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Advertisements.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Advertisements.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Advertisements.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Advertisements.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Monetization.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Monetization.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Monetization.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Monetization.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Purchasing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Purchasing.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Purchasing.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.Purchasing.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.SpatialTracking.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.SpatialTracking.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/29/2938d8d4771e86d1cefa575e8862e773.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/29/2938d8d4771e86d1cefa575e8862e773.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,16 +256,17 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/.editorconfig" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Wave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/.editorconfig" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -111,7 +288,9 @@
         <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
         <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" />
         <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/YourVRUI/scripts/controllers/EventSystemController.cs" />
         <option value="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" />
       </list>
     </option>
   </component>
@@ -193,6 +372,7 @@
       <workItem from="1613403052723" duration="4123000" />
       <workItem from="1613409430256" duration="5120000" />
       <workItem from="1613420573793" duration="2797000" />
+      <workItem from="1613478630616" duration="6123000" />
     </task>
     <servers />
   </component>

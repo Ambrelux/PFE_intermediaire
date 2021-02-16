@@ -8,6 +8,11 @@ TagManager:
   - Furniture
   - Person
   - Sphere
+  - UI_TRIGGERER
+  - Model
+  - ITEM_OBJECT
+  - player
+  - UI_Sound
   layers:
   - Default
   - TransparentFX
