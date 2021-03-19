@@ -5,376 +5,21 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637490799268105183
-    m_Hash: 2541789608
+      ticks: 637517694553644365
+    m_Hash: 2045657021
   m_LockFileStatus:
     m_FilePath: D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637490799272180673
-    m_Hash: 2115195635
+      ticks: 637517694554247289
+    m_Hash: 848746562
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.sprite@1.0.0
-      testable: 0
-      isDirectDependency: 1
-      version: 1.0.0
-      source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.1.13f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.sprite
-      assetPath: Packages/com.unity.2d.sprite
-      name: com.unity.2d.sprite
-      displayName: 2D Sprite
-      author:
-        name: 
-        email: 
-        url: 
-      category: 2D
-      type: 
-      description: Use Unity Sprite Editor Window to create and edit Sprite asset
-        properties like pivot, borders and Physics shape
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0
-        compatible:
-        - 1.0.0
-        verified: 1.0.0
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - 2d
-      - sprite
-      - sprite editor window
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 0
-      repository:
-        type: 
-        url: 
-        revision: 
-        path: 
-    - packageId: com.unity.2d.tilemap@1.0.0
-      testable: 0
-      isDirectDependency: 1
-      version: 1.0.0
-      source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.1.13f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap
-      assetPath: Packages/com.unity.2d.tilemap
-      name: com.unity.2d.tilemap
-      displayName: 2D Tilemap Editor
-      author:
-        name: 
-        email: 
-        url: 
-      category: 2D
-      type: 
-      description: 2D Tilemap Editor is a package that contains editor functionalities
-        for editing Tilemaps.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0
-        compatible:
-        - 1.0.0
-        verified: 1.0.0
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - 2d
-      - Tilemap
-      registry:
-        id: 
-        name: 
-        url: 
-        scopes: []
-        isDefault: 0
-        capabilities: 0
-      hasRegistry: 0
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 0
-      repository:
-        type: 
-        url: 
-        revision: 
-        path: 
-    - packageId: com.unity.ads@3.5.0
-      testable: 0
-      isDirectDependency: 1
-      version: 3.5.0
-      source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.ads@3.5.0
-      assetPath: Packages/com.unity.ads
-      name: com.unity.ads
-      displayName: Advertisement
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Unity Ads is a video ad network for iOS and Android that allows
-        you to quickly and effectively monetize your games.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7
-        - 0.0.8
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 2.0.0
-        - 2.0.3
-        - 2.0.4
-        - 2.0.7
-        - 2.0.8
-        - 2.3.1
-        - 2.3.2
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.1.1
-        - 3.2.0
-        - 3.3.0
-        - 3.3.1
-        - 3.4.0
-        - 3.4.1
-        - 3.4.2
-        - 3.4.4
-        - 3.4.5
-        - 3.4.7
-        - 3.4.9
-        - 3.5.0
-        - 3.5.2
-        - 3.6.1
-        compatible:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7
-        - 0.0.8
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 2.0.0
-        - 2.0.3
-        - 2.0.4
-        - 2.0.7
-        - 2.0.8
-        - 2.3.1
-        - 2.3.2
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.1.1
-        - 3.2.0
-        - 3.3.0
-        - 3.3.1
-        - 3.4.0
-        - 3.4.1
-        - 3.4.2
-        - 3.4.4
-        - 3.4.5
-        - 3.4.7
-        - 3.4.9
-        - 3.5.0
-        - 3.5.2
-        - 3.6.1
-        verified: 3.5.2
-      dependencies:
-      - name: com.unity.ugui
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - ads
-      - unity
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637378601570000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ads.git
-        revision: 1381cd092159b0c7fef7b2dafa7796ebf313e37c
-        path: 
-    - packageId: com.unity.analytics@3.5.3
-      testable: 0
-      isDirectDependency: 1
-      version: 3.5.3
-      source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.analytics@3.5.3
-      assetPath: Packages/com.unity.analytics
-      name: com.unity.analytics
-      displayName: Analytics Library
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: The Unity Analytics Library contains the Analytics Event Tracker
-        component, the Data Privacy plug-in, and the Standard Events API.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.7
-        - 0.0.8
-        - 0.0.9
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 0.0.17
-        - 0.0.19
-        - 2.0.5
-        - 2.0.11
-        - 2.0.13
-        - 2.0.14
-        - 2.0.15
-        - 2.0.16
-        - 3.0.5
-        - 3.0.9
-        - 3.1.1
-        - 3.2.0
-        - 3.2.2
-        - 3.2.3
-        - 3.3.0
-        - 3.3.2-preview
-        - 3.3.2
-        - 3.3.4
-        - 3.3.5
-        - 3.4.0
-        - 3.5.3
-        compatible:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.7
-        - 0.0.8
-        - 0.0.9
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 0.0.17
-        - 0.0.19
-        - 2.0.5
-        - 2.0.11
-        - 2.0.13
-        - 2.0.14
-        - 2.0.15
-        - 2.0.16
-        - 3.0.5
-        - 3.0.9
-        - 3.1.1
-        - 3.2.0
-        - 3.2.2
-        - 3.2.3
-        - 3.3.0
-        - 3.3.2-preview
-        - 3.3.2
-        - 3.3.4
-        - 3.3.5
-        - 3.4.0
-        - 3.5.3
-        verified: 3.5.3
-      dependencies:
-      - name: com.unity.ugui
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - analytics
-      - unity
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637381916200000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.analytics.git
-        revision: 02d361e53eda59ceb7d02ba9bd15ff55a093ad83
-        path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
       isDirectDependency: 1
@@ -513,6 +158,8 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.2
         - 3.0.3
+        - 3.0.4
+        - 3.0.5
         compatible:
         - 1.0.2
         - 1.0.6
@@ -535,15 +182,17 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.2
         - 3.0.3
+        - 3.0.4
+        - 3.0.5
         verified: 1.2.1
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.18
+        version: 1.1.24
       - name: com.unity.ext.nunit
-        version: 1.0.0
+        version: 1.0.6
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
@@ -568,144 +217,6 @@ m_PackageAssets:
         type: git
         url: git@github.cds.internal.unity3d.com:unity/com.unity.ide.rider.git
         revision: 009bcadf1eb16d9bbf3d00bcf6ccdde2162ce0cb
-        path: 
-    - packageId: com.unity.ide.visualstudio@2.0.3
-      testable: 0
-      isDirectDependency: 1
-      version: 2.0.3
-      source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.ide.visualstudio@2.0.3
-      assetPath: Packages/com.unity.ide.visualstudio
-      name: com.unity.ide.visualstudio
-      displayName: Visual Studio Editor
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Code editor integration for supporting Visual Studio as code editor
-        for unity. Adds support for generating csproj files for intellisense purposes,
-        auto discovery of installations, etc.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.4
-        - 1.0.9
-        - 1.0.10
-        - 1.0.11
-        - 2.0.0
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
-        compatible:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.4
-        - 1.0.9
-        - 1.0.10
-        - 1.0.11
-        - 2.0.0
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
-        verified: 2.0.5
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637359495930000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 869804bff6e99d0d0e9c1867aebaa070fad875e5
-        path: 
-    - packageId: com.unity.ide.vscode@1.2.3
-      testable: 0
-      isDirectDependency: 1
-      version: 1.2.3
-      source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.ide.vscode@1.2.3
-      assetPath: Packages/com.unity.ide.vscode
-      name: com.unity.ide.vscode
-      displayName: Visual Studio Code Editor
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Code editor integration for supporting Visual Studio Code as code
-        editor for unity. Adds support for generating csproj files for intellisense
-        purposes, auto discovery of installations, etc.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.7
-        - 1.1.0
-        - 1.1.2
-        - 1.1.3
-        - 1.1.4
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        compatible:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.7
-        - 1.1.0
-        - 1.1.2
-        - 1.1.3
-        - 1.1.4
-        - 1.2.0
-        - 1.2.1
-        - 1.2.2
-        - 1.2.3
-        verified: 1.2.3
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637394922300000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
     - packageId: com.unity.probuilder@4.4.0
       testable: 0
@@ -764,7 +275,10 @@ m_PackageAssets:
         - 4.3.1
         - 4.4.0-preview.1
         - 4.4.0
+        - 4.5.0
         - 5.0.0-pre.7
+        - 5.0.0-pre.10
+        - 5.0.1
         compatible:
         - 4.0.2
         - 4.0.3
@@ -788,7 +302,10 @@ m_PackageAssets:
         - 4.3.1
         - 4.4.0-preview.1
         - 4.4.0
+        - 4.5.0
         - 5.0.0-pre.7
+        - 5.0.0-pre.10
+        - 5.0.1
         verified: 4.4.0
       dependencies:
       - name: com.unity.settings-manager
@@ -837,159 +354,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.probuilder.git
         revision: 04b57a20391934bc7460d5fe1017d157545b2a5f
         path: 
-    - packageId: com.unity.purchasing@2.1.1
+    - packageId: com.unity.test-framework@1.1.24
       testable: 0
       isDirectDependency: 1
-      version: 2.1.1
+      version: 1.1.24
       source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.purchasing@2.1.1
-      assetPath: Packages/com.unity.purchasing
-      name: com.unity.purchasing
-      displayName: In App Purchasing
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: 'Unity IAP supports the iOS, Mac, tvOS, Google Play, Facebook
-        Gameroom, Windows, Amazon, and Samsung Galaxy app stores. Additionally, it
-        can work in tandem with the Unity Distribution Portal in order to synchronize
-        catalogs and transactions with even more stores.
-
-
-        With Unity IAP,
-        setting up in-app purchases for your game across multiple app stores has
-        never been easier.
-
-
-        Use one common API to access all stores for
-        free. With just a few lines of code, you can fully understand and optimize
-        your in-game economy.
-
-
-        Unity IAP automatically couples with Unity
-        Analytics enabling you to monitor and act on trends in your revenue and purchase
-        data across multiple platforms.
-
-
-        Includes client-side receipt validation
-        for Apple App Store and Google Play.
-
-
-        After installing this package,
-        please make sure to open the Services Window and enable In-App Purchasing
-        to use its features. In the In-App Purchasing settings, please make sure
-        to import the Asset Store plugin if you have not already done so. This is
-        necessary to include all of the features.'
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7
-        - 0.0.8
-        - 0.0.9
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 0.0.17
-        - 0.0.18
-        - 0.0.19
-        - 2.0.0
-        - 2.0.1
-        - 2.0.3
-        - 2.0.5
-        - 2.0.6
-        - 2.1.0
-        - 2.1.1
-        - 2.2.0
-        - 2.2.1
-        - 2.2.2
-        - 3.0.0-pre.3
-        - 3.0.0-pre.4
-        - 3.0.0-pre.5
-        - 3.0.0-pre.6
-        compatible:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7
-        - 0.0.8
-        - 0.0.9
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 0.0.17
-        - 0.0.18
-        - 0.0.19
-        - 2.0.0
-        - 2.0.1
-        - 2.0.3
-        - 2.0.5
-        - 2.0.6
-        - 2.1.0
-        - 2.1.1
-        - 2.2.0
-        - 2.2.1
-        - 2.2.2
-        - 3.0.0-pre.3
-        - 3.0.0-pre.4
-        - 3.0.0-pre.5
-        - 3.0.0-pre.6
-        verified: 2.1.1
-      dependencies:
-      - name: com.unity.ugui
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - purchasing
-      - iap
-      - unity
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637357776810000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
-        revision: ab79b0c58006f61970a2136b4cba9ca76fde0edc
-        path: 
-    - packageId: com.unity.test-framework@1.1.18
-      testable: 0
-      isDirectDependency: 1
-      version: 1.1.18
-      source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.test-framework@1.1.18
+      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1030,21 +400,25 @@ m_PackageAssets:
         - 1.1.18
         - 1.1.19
         - 1.1.20
+        - 1.1.22
+        - 1.1.24
         compatible:
         - 1.1.18
         - 1.1.19
         - 1.1.20
-        verified: 1.1.20
+        - 1.1.22
+        - 1.1.24
+        verified: 1.1.24
       dependencies:
       - name: com.unity.ext.nunit
-        version: 1.0.0
+        version: 1.0.6
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.ext.nunit
-        version: 1.0.0
+        version: 1.0.6
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.modules.jsonserialize
@@ -1064,20 +438,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637378481950000000
+      datePublishedTicks: 637505702940000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: 14025b364215f4465cbe1beb7a81e486b2687ced
+        revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
         path: 
-    - packageId: com.unity.textmeshpro@3.0.1
+    - packageId: com.unity.textmeshpro@3.0.4
       testable: 0
       isDirectDependency: 1
-      version: 3.0.1
+      version: 3.0.4
       source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1147,6 +521,7 @@ m_PackageAssets:
         - 1.5.0
         - 1.5.1
         - 1.5.3
+        - 1.5.4
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -1165,6 +540,7 @@ m_PackageAssets:
         - 2.1.0
         - 2.1.1
         - 2.1.3
+        - 2.1.4
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -1179,10 +555,12 @@ m_PackageAssets:
         - 3.0.0
         - 3.0.1
         - 3.0.3
+        - 3.0.4
         compatible:
         - 3.0.1
         - 3.0.3
-        verified: 3.0.3
+        - 3.0.4
+        verified: 3.0.4
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -1211,20 +589,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314376320000000
+      datePublishedTicks: 637492944820000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: 1604b62e543216408311bcd1355a7a9ca1e65765
+        revision: e2f8dffb26de9a130d5b2140d83891d9a7825330
         path: 
-    - packageId: com.unity.timeline@1.2.6
+    - packageId: com.unity.timeline@1.3.7
       testable: 0
       isDirectDependency: 1
-      version: 1.2.6
+      version: 1.3.7
       source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.timeline@1.2.6
+      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.timeline@1.3.7
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1257,6 +635,7 @@ m_PackageAssets:
         - 1.2.15
         - 1.2.16
         - 1.2.17
+        - 1.2.18
         - 1.3.0-preview.2
         - 1.3.0-preview.3
         - 1.3.0-preview.5
@@ -1269,6 +648,7 @@ m_PackageAssets:
         - 1.3.4
         - 1.3.5
         - 1.3.6
+        - 1.3.7
         - 1.4.0-preview.1
         - 1.4.0-preview.2
         - 1.4.0-preview.3
@@ -1281,6 +661,8 @@ m_PackageAssets:
         - 1.4.3
         - 1.4.4
         - 1.4.5
+        - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -1290,6 +672,10 @@ m_PackageAssets:
         - 1.5.1-pre.1
         - 1.5.1-pre.2
         - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
         compatible:
         - 1.2.6
         - 1.2.7
@@ -1302,6 +688,7 @@ m_PackageAssets:
         - 1.2.15
         - 1.2.16
         - 1.2.17
+        - 1.2.18
         - 1.3.0-preview.2
         - 1.3.0-preview.3
         - 1.3.0-preview.5
@@ -1314,6 +701,7 @@ m_PackageAssets:
         - 1.3.4
         - 1.3.5
         - 1.3.6
+        - 1.3.7
         - 1.4.0-preview.1
         - 1.4.0-preview.2
         - 1.4.0-preview.3
@@ -1326,6 +714,8 @@ m_PackageAssets:
         - 1.4.3
         - 1.4.4
         - 1.4.5
+        - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -1335,9 +725,29 @@ m_PackageAssets:
         - 1.5.1-pre.1
         - 1.5.1-pre.2
         - 1.5.1-pre.3
-        verified: 1.3.6
-      dependencies: []
-      resolvedDependencies: []
+        - 1.5.2
+        - 1.5.4
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
+        verified: 1.3.7
+      dependencies:
+      - name: com.unity.modules.director
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.particlesystem
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.director
+        version: 1.0.0
+      - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
+      - name: com.unity.modules.particlesystem
+        version: 1.0.0
       keywords:
       - unity
       - animation
@@ -1356,13 +766,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637078934930000000
+      datePublishedTicks: 637462526490000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git@github.cds.internal.unity3d.com:unity/com.unity.timeline.git
-        revision: 39cb37bbeda9d8c0fda212fe2ead783c7c502dc0
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
+        revision: 15aff5c6f0093f70296564a632cdfa9d92b4bfbe
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
@@ -1426,251 +836,6 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
-        path: 
-    - packageId: com.unity.xr.management@4.0.1
-      testable: 0
-      isDirectDependency: 1
-      version: 4.0.1
-      source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.xr.management@4.0.1
-      assetPath: Packages/com.unity.xr.management
-      name: com.unity.xr.management
-      displayName: XR Plugin Management
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Package that provides simple management of XR plug-ins. Manages
-        and offers help with loading, initialization, settings, and build support
-        for XR plug-ins.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.1.0-preview.8
-        - 0.1.0-preview.12
-        - 1.0.0-preview.2
-        - 2.0.0-preview.3
-        - 2.0.0-preview.6
-        - 2.0.0-preview.9
-        - 2.0.0-preview.10
-        - 2.0.0-preview.13
-        - 2.0.0-preview.21
-        - 2.0.0-preview.22
-        - 2.0.0-preview.24
-        - 2.0.0-preview.25
-        - 2.0.0-preview.26
-        - 3.0.1
-        - 3.0.2-preview.1
-        - 3.0.2-preview.2
-        - 3.0.3
-        - 3.0.4-preview.1
-        - 3.0.4-preview.3
-        - 3.0.4
-        - 3.0.5-preview.1
-        - 3.0.5
-        - 3.0.6-preview.2
-        - 3.0.6
-        - 3.1.0-preview.2
-        - 3.2.4
-        - 3.2.6
-        - 3.2.7
-        - 3.2.9
-        - 3.2.10
-        - 3.2.11-preview.1
-        - 3.2.12
-        - 3.2.13
-        - 3.2.15
-        - 3.2.16
-        - 3.2.17
-        - 4.0.0-exp.2
-        - 4.0.0-pre.2
-        - 4.0.0-pre.3
-        - 4.0.1
-        compatible:
-        - 3.2.16
-        - 3.2.17
-        - 4.0.0-exp.2
-        - 4.0.0-pre.2
-        - 4.0.0-pre.3
-        - 4.0.1
-        verified: 3.2.17
-      dependencies:
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.subsystemregistration
-        version: 1.0.6
-      resolvedDependencies:
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.subsystemregistration
-        version: 1.0.6
-      keywords:
-      - xr
-      - sdk
-      - ar
-      - vr
-      - management
-      - build
-      - plugin
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637486666900000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-        revision: 7be7864c531ec05f0ba18503a2bb44684061e071
-        path: 
-    - packageId: com.unity.xr.oculus@1.5.0
-      testable: 0
-      isDirectDependency: 1
-      version: 1.5.0
-      source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.xr.oculus@1.5.0
-      assetPath: Packages/com.unity.xr.oculus
-      name: com.unity.xr.oculus
-      displayName: Oculus XR Plugin
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Provides display and input support for Oculus devices.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.0.9-preview
-        - 0.1.2-preview.1
-        - 0.8.4-preview
-        - 1.0.0-preview.4
-        - 1.0.0
-        - 1.0.2
-        - 1.0.3-preview.1
-        - 1.1.0-preview
-        - 1.1.0
-        - 1.1.1
-        - 1.1.2-preview
-        - 1.1.2
-        - 1.1.3-preview
-        - 1.1.3-preview.1
-        - 1.1.4-preview
-        - 1.1.4-preview.1
-        - 1.1.4
-        - 1.1.5-preview
-        - 1.1.5
-        - 1.2.0-preview.1
-        - 1.2.0
-        - 1.3.1
-        - 1.3.3
-        - 1.3.4
-        - 1.4.0-preview.1
-        - 1.4.0-preview.2
-        - 1.4.0
-        - 1.4.3
-        - 1.5.0
-        - 1.6.0-preview.1
-        - 1.6.0-preview.2
-        - 1.6.1
-        - 1.7.0-preview.1
-        - 1.7.0-preview.2
-        - 1.7.0
-        compatible:
-        - 1.5.0
-        - 1.6.0-preview.1
-        - 1.6.0-preview.2
-        - 1.6.1
-        - 1.7.0-preview.1
-        - 1.7.0-preview.2
-        - 1.7.0
-        verified: 1.5.0
-      dependencies:
-      - name: com.unity.xr.management
-        version: 3.0.6
-      - name: com.unity.ugui
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.xr.management
-        version: 4.0.1
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      - name: com.unity.xr.legacyinputhelpers
-        version: 2.1.7
-      - name: com.unity.subsystemregistration
-        version: 1.0.6
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - oculus
-      - xr
-      - vr
-      - virtual
-      - rift
-      - quest
-      - go
-      - xreditorsubsystem
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637366416870000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/xr.sdk.oculus.git
-        revision: b29ffb6b91292563d4382e5d34c90d1bd9806c26
         path: 
     - packageId: com.unity.modules.ai@1.0.0
       testable: 0
@@ -3414,162 +2579,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.xr.legacyinputhelpers@2.1.7
-      testable: 0
-      isDirectDependency: 0
-      version: 2.1.7
-      source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.7
-      assetPath: Packages/com.unity.xr.legacyinputhelpers
-      name: com.unity.xr.legacyinputhelpers
-      displayName: XR Legacy Input Helpers
-      author:
-        name: 
-        email: 
-        url: 
-      category: XR
-      type: 
-      description: This package includes the tracked pose driver for the legacy input
-        system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
-        Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects
-        to track input devices, the XR Bindings Seeding Tool adds a menu item under
-        the 'Assets' menu which populates the Input Asset with Unity's crossplatform
-        Input Bindings
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0
-        - 1.0.2
-        - 1.0.3
-        - 1.3.1
-        - 1.3.2
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.3.8
-        - 1.3.11
-        - 2.0.1
-        - 2.0.2
-        - 2.0.4
-        - 2.0.6
-        - 2.0.8
-        - 2.1.1
-        - 2.1.2
-        - 2.1.3
-        - 2.1.4
-        - 2.1.6
-        - 2.1.7
-        compatible:
-        - 2.1.4
-        - 2.1.6
-        - 2.1.7
-        verified: 2.1.7
-      dependencies:
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.vr
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.xr
-        version: 1.0.0
-      - name: com.unity.modules.subsystems
-        version: 1.0.0
-      keywords:
-      - TPD
-      - Tracked Pose Driver
-      - XR
-      - Input
-      - Helpers
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637434003470000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-        revision: b2024928b8140a10ad43aeb5824d2f08bb8796bc
-        path: 
-    - packageId: com.unity.subsystemregistration@1.0.6
+    - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.subsystemregistration@1.0.6
-      assetPath: Packages/com.unity.subsystemregistration
-      name: com.unity.subsystemregistration
-      displayName: Subsystem Registration
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Provides internal registration mechanism for standalone subsystems. 
-        It allows a standalone subsystem to inform the Subsystem Manager of its existence.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0-preview.4
-        - 1.0.4
-        - 1.0.5
-        - 1.0.6
-        - 1.1.0
-        compatible:
-        - 1.0.6
-        - 1.1.0
-        verified: 1.1.0
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - subsystem
-      - registration
-      - internal
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637056434700000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git@github.cds.internal.unity3d.com:unity/com.unity.subsystemregistration.git
-        revision: 0b4157c6c0a160c51e74ead305aee77e6f29527d
-        path: 
-    - packageId: com.unity.ext.nunit@1.0.0
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.0
-      source: 1
-      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.ext.nunit@1.0.0
+      resolvedPath: D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3617,13 +2632,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 636898893830000000
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git@gitlab.cds.internal.unity3d.com/upm-packages/core/com.unity.ext.nunit.git
-        revision: c8f5044ffe6adb909f9836160b0bdaa30f2d1ec9
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
+        revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
     - packageId: com.unity.settings-manager@1.0.3
       testable: 0

@@ -62,29 +62,14 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Monetization">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.ProBuilder">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Purchasing">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -95,32 +80,8 @@
  <Reference Include="Unity.Timeline">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Analytics">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Analytics.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements.Editor">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
@@ -128,29 +89,8 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Subsystem.Registration">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management.Editor">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Oculus">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Oculus.Editor">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -356,17 +296,8 @@
  <Reference Include="UnityEditor.UWP.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.Editor">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
  <Reference Include="nunit.framework">
- <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>D:/ESME/INGE3/PROJET/PFE/modelisation_acoustique/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
