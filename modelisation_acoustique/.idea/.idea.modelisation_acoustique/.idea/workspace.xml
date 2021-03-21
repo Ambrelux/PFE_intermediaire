@@ -20,12 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/EventSystem.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/EventSystem.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/Manager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/api_ui.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/api_ui.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +61,13 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Uitest.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
@@ -90,6 +94,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\modelisation_acoustique.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -153,7 +165,7 @@
       <workItem from="1613478630616" duration="6123000" />
       <workItem from="1616169763727" duration="4675000" />
       <workItem from="1616240590346" duration="1184000" />
-      <workItem from="1616331736226" duration="7809000" />
+      <workItem from="1616331736226" duration="11569000" />
     </task>
     <servers />
   </component>

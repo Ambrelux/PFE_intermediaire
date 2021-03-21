@@ -10,13 +10,27 @@ namespace Res.Scripts.UserInterface
     {
         private List<GameObject> _uiSounds = new List<GameObject>();
         public static Sound[] sounds;
-        private void Awake()
+        public KeyCode key = KeyCode.LeftControl;
+        private void ChangeState()
         {
-            _uiSounds.AddRange(GameObject.FindGameObjectsWithTag("UI_Sound"));    
+            foreach (Transform child in transform)
+            {
+                child.gameObject.SetActive(!child.gameObject.activeSelf);
+            }
+        }
+        
+        public void Update()
+        {
+            if (Input.GetKeyDown(key))
+            {
+                StartCoroutine(ApiRequest.FindSound());
+                ChangeState();
+            }
         }
 
         public void UpdateUISound()
         {
+            _uiSounds.AddRange(GameObject.FindGameObjectsWithTag("UI_Sound"));
             for (int i = 0; i < sounds.Length; i++)
             {
                 Text id = _uiSounds[i].transform.Find("no_text").GetComponent<Text>();

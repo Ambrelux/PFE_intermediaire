@@ -21,8 +21,6 @@ namespace Res.Scripts.Waves
         public int nbWaves = 0;
         public GameObject sphereObject;
         public GameObject sphereParent;
-        private readonly ApiRequest _api = new ApiRequest();
-        
         private AcousticCalculation _acousticCalculation = AcousticCalculation.Instance;
 
         private void Awake()
