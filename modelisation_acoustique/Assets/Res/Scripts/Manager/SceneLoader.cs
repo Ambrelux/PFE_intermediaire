@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,5 +15,26 @@ public class SceneLoader : MonoBehaviour
     public void LoadMidScene()
     {
         SceneManager.LoadScene("mid_scene", LoadSceneMode.Single);
+    }
+    
+    private void LoadStartScene()
+    {
+        SceneManager.LoadScene("start_scene", LoadSceneMode.Single);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            if (SceneManager.GetActiveScene().name == "start_scene")
+            {
+                Application.Quit();
+            }
+            else
+            {
+                LoadStartScene();
+            }
+
+        }
     }
 }

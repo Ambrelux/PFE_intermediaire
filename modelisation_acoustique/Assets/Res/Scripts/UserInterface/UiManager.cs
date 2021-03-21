@@ -1,10 +1,11 @@
 ﻿using System;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 namespace Res.Scripts.UserInterface
 {
     public class UiManager : MonoBehaviour
     {
+        public KeyCode key = KeyCode.LeftControl;
         private void ChangeState()
         {
             foreach (Transform child in transform)
@@ -12,10 +13,10 @@ namespace Res.Scripts.UserInterface
                 child.gameObject.SetActive(!child.gameObject.activeSelf);
             }
         }
-
+        
         public void Update()
         {
-            if (Input.GetKeyUp(KeyCode.Escape))
+            if (Input.GetKeyDown(key))
             {
                 ChangeState();
             }

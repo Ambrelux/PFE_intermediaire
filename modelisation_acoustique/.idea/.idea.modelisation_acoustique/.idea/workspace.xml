@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/EventSystem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/EventSystem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +59,11 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Uitest.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
@@ -148,7 +153,7 @@
       <workItem from="1613478630616" duration="6123000" />
       <workItem from="1616169763727" duration="4675000" />
       <workItem from="1616240590346" duration="1184000" />
-      <workItem from="1616331736226" duration="6010000" />
+      <workItem from="1616331736226" duration="7809000" />
     </task>
     <servers />
   </component>
