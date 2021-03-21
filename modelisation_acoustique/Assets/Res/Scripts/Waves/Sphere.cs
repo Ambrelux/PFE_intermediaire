@@ -13,7 +13,7 @@ namespace Res.Scripts.Waves
     { 
         public GameObject sphereObject;
         private List<Vector3> _waveCoordData = new List<Vector3>();
-        private AcousticCalculation _acousticCalculation;
+        //private AcousticCalculation _acousticCalculation;
         private readonly Color _startColor = new Color32(71, 255, 78, 255);
         private readonly Color _endColor = new Color32(255, 0,0 , 255);
         private Color _objectColor;
@@ -54,15 +54,14 @@ namespace Res.Scripts.Waves
                 {
                     var fractionOfJourney = (Time.time - startTime) * 20f / journeyLength;
                     var lastPosition = transform.position;
-                    
-                    if (_acousticCalculation.ReverbDistance > distCovered)
+                    if (AcousticCalculation.Instance.ReverbDistance > distCovered)
                     {
                         transform.position =
                             Vector3.Lerp(startCoord, endCoord, fractionOfJourney);
 
                         distCovered += Vector3.Distance(lastPosition, transform.position);
                         
-                        var interColor = distCovered / _acousticCalculation.ReverbDistance;
+                        var interColor = distCovered / AcousticCalculation.Instance.ReverbDistance;
                         _objectColor = Color.Lerp(_startColor, _endColor, interColor);
                         _objectRenderer.material.SetColor("_Color",_objectColor);
                         yield return null;
@@ -81,7 +80,6 @@ namespace Res.Scripts.Waves
 
         public void Awake()
         {
-            _acousticCalculation = new AcousticCalculation();
             _objectRenderer = sphereObject.GetComponent<Renderer>();
             _objectRenderer.material.SetColor("_Color",_startColor);
             _rayColor = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
@@ -90,7 +88,6 @@ namespace Res.Scripts.Waves
         public void StartMovement()
         {
             StartCoroutine(MoveSphere());
-            Debug.Log(_acousticCalculation.ReverbDistance);
         }
         
     } 

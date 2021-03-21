@@ -13,7 +13,7 @@ namespace Res.Scripts.Waves
     {
         private RaycastHit _hit;
         public int totalBounce = 10;
-        public float lineOffset = 0.01f;
+        private float lineOffset = 0.01f;
         [SerializeField] private LayerMask layers;
     
         private readonly List<Wave> _wavesList = new List<Wave>();
@@ -22,6 +22,8 @@ namespace Res.Scripts.Waves
         public GameObject sphereObject;
         public GameObject sphereParent;
         private readonly ApiRequest _api = new ApiRequest();
+        
+        private AcousticCalculation _acousticCalculation = AcousticCalculation.Instance;
 
         private void Awake()
         {
@@ -32,6 +34,7 @@ namespace Res.Scripts.Waves
         {
             if (Input.GetKeyUp(KeyCode.E))
             {
+                AcousticCalculation.Instance.UpdateAcousticCalculation();
                 InitWaves();
                 InitSpheres();
                 WaveData();

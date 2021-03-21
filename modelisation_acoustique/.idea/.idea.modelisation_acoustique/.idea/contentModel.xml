@@ -7,7 +7,35 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AssetStoreOriginals" t="Include">
+        <e p="Res" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="API" t="Include">
+              <e p="APIRequest.cs" t="Include" />
+              <e p="datafind.txt" t="Include" />
+              <e p="datainsert.txt" t="Include" />
+            </e>
+            <e p="Camera" t="Include">
+              <e p="CameraBehaviour.cs" t="Include" />
+            </e>
+            <e p="Manager" t="Include">
+              <e p="SceneLoader.cs" t="Include" />
+            </e>
+            <e p="Object" t="Include">
+              <e p="AcousticCalculation.cs" t="Include" />
+              <e p="ObjectData.cs" t="Include" />
+            </e>
+            <e p="UserInterface" t="Include">
+              <e p="UiManager.cs" t="Include" />
+              <e p="UiSounds.cs" t="Include" />
+            </e>
+            <e p="Waves" t="Include">
+              <e p="Sphere.cs" t="Include" />
+              <e p="Wave.cs" t="Include" />
+              <e p="waveBehaviour.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Workspace_Asset" t="Include">
           <e p="_SNAPS_PrototypingAssets" t="Include">
             <e p="About" t="Include">
               <e p="Scripts" t="Include">
@@ -24,31 +52,6 @@
                   <e p="PackageImportList.txt" t="Include" />
                 </e>
               </e>
-            </e>
-          </e>
-        </e>
-        <e p="Res" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="API" t="Include">
-              <e p="APIRequest.cs" t="Include" />
-              <e p="datafind.txt" t="Include" />
-              <e p="datainsert.txt" t="Include" />
-            </e>
-            <e p="Camera" t="Include">
-              <e p="CameraBehaviour.cs" t="Include" />
-            </e>
-            <e p="Object" t="Include">
-              <e p="AcousticCalculation.cs" t="Include" />
-              <e p="ObjectData.cs" t="Include" />
-            </e>
-            <e p="UserInterface" t="Include">
-              <e p="UiManager.cs" t="Include" />
-              <e p="UiSounds.cs" t="Include" />
-            </e>
-            <e p="Waves" t="Include">
-              <e p="Sphere.cs" t="Include" />
-              <e p="Wave.cs" t="Include" />
-              <e p="waveBehaviour.cs" t="Include" />
             </e>
           </e>
         </e>

@@ -3,23 +3,36 @@ using UnityEngine;
 
 namespace Res.Scripts.Object
 {
-    public class AcousticCalculation
+    public class AcousticCalculation : MonoBehaviour
     {
-        public AcousticCalculation()
-        {
-            var materialList = new List<GameObject>();
-            var furnitureList= new List<GameObject>();  
-            var personList= new List<GameObject>();
-            AddGameObjectInList(materialList,"Material");
-            AddGameObjectInList(furnitureList,"Furniture");
-            AddGameObjectInList(personList,"Person");            
-            var totalAbsorptionArea = GetAbsorptionArea(materialList) + GetAbsorptionArea(furnitureList)
-                                                                      + GetAbsorptionArea(personList);
-            const float roomVolume = 200f;
-            var reverbTime = (0.16f * roomVolume) / totalAbsorptionArea;
-            ReverbDistance = reverbTime * 340.29f;
-        }
+        private static AcousticCalculation _instance;
+        public static AcousticCalculation Instance { get { return _instance; } }
         
+        private List<GameObject> _materialList;
+        private List<GameObject> _furnitureList;
+        private List<GameObject> _personList;
+        private float _reverbDistance;
+        public float roomVolume=200f;
+        
+        void Awake()
+        {
+            _instance = this;
+            _materialList = new List<GameObject>();
+            _furnitureList= new List<GameObject>();  
+            _personList= new List<GameObject>();
+            UpdateAcousticCalculation();
+        }
+
+        public void UpdateAcousticCalculation()
+        {
+            AddGameObjectInList(_materialList,"Material");
+            AddGameObjectInList(_furnitureList,"Furniture");
+            AddGameObjectInList(_personList,"Person");            
+            var totalAbsorptionArea = GetAbsorptionArea(_materialList) + GetAbsorptionArea(_furnitureList)
+                                                                      + GetAbsorptionArea(_personList);
+            var reverbTime = (0.16f * roomVolume) / totalAbsorptionArea;
+            _reverbDistance = reverbTime * 340.29f;
+        }
         
         private static float GetAbsorptionArea(List<GameObject> list)
         {
@@ -34,9 +47,10 @@ namespace Res.Scripts.Object
 
         private static void AddGameObjectInList(List<GameObject> list, string tag)
         {
+            list.Clear();
             list.AddRange(GameObject.FindGameObjectsWithTag(tag));
         }
-        
-        public float ReverbDistance { get; }
+
+        public float ReverbDistance => _reverbDistance;
     }
 }
