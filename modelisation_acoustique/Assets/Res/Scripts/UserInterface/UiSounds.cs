@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Res.Scripts.API;
+using TMPro;
 using UnityEngine.UI;
 
 namespace Res.Scripts.UserInterface
@@ -30,16 +31,18 @@ namespace Res.Scripts.UserInterface
 
         public void UpdateUISound()
         {
-            _uiSounds.AddRange(GameObject.FindGameObjectsWithTag("UI_Sound"));
-            for (int i = 0; i < sounds.Length; i++)
+            if(sounds.Length > 0)
             {
-                Text id = _uiSounds[i].transform.Find("no_text").GetComponent<Text>();
-                Text date = _uiSounds[i].transform.Find("date_text").GetComponent<Text>();
-                Text frequency = _uiSounds[i].transform.Find("frequency_text").GetComponent<Text>();
-
-                id.text = sounds[i]._id.ToString();
-                date.text = sounds[i].date;
-                frequency.text = sounds[i].frequency.ToString();
+                _uiSounds.AddRange(GameObject.FindGameObjectsWithTag("UI_Sound"));
+                for (int i = 0; i < sounds.Length; i++)
+                {
+                    TextMeshProUGUI id = _uiSounds[i].transform.Find("no_text").GetComponent<TextMeshProUGUI>();
+                    TextMeshProUGUI date = _uiSounds[i].transform.Find("date_text").GetComponent<TextMeshProUGUI>();
+                    TextMeshProUGUI frequency = _uiSounds[i].transform.Find("frequency_text").GetComponent<TextMeshProUGUI>();
+                    id.SetText(sounds[i]._id.ToString());
+                    date.SetText(sounds[i].date);
+                    frequency.SetText(sounds[i].frequency.ToString());
+                }
             }
         }
     }
