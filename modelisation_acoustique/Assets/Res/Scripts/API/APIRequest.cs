@@ -102,7 +102,7 @@ public class JsonHelper
         Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>> (newJson);
         return wrapper.array;
     }
- 
+
     [Serializable]
     private class Wrapper<T>
     {

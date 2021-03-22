@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using Res.Scripts.API;
+using Res.Scripts.Waves;
 using TMPro;
 using UnityEngine.UI;
 
@@ -12,6 +16,8 @@ namespace Res.Scripts.UserInterface
         private List<GameObject> _uiSounds = new List<GameObject>();
         public static Sound[] sounds;
         public KeyCode key = KeyCode.LeftControl;
+        public TextMeshProUGUI inputFieldText;
+        public GameObject inputField;
         private void ChangeState()
         {
             foreach (Transform child in transform)
@@ -45,5 +51,49 @@ namespace Res.Scripts.UserInterface
                 }
             }
         }
+
+        public void ReplaySound()
+        {
+            int number;
+            Coord[][] list;
+            string text = inputField.GetComponent<TMP_InputField>().text;
+            if (int.TryParse(text, out number))
+            {
+                for (int i = 0; i < sounds.Length; i++)
+                {
+                    if (sounds[i]._id == number)
+                    {
+                        Debug.Log("ok");
+                        for (int j = 0; j < sounds[i].spheres.Count; j++)
+                        {
+                            Debug.Log("oook");
+                            var result = sounds[i].spheres[j];
+                            var result1 = result.Remove(result.Length - 1);
+                            var result2 = result1.Remove(0, 16);
+                            // coord d'une sphère
+                            Coord[] coords = JsonHelper.getJsonArray<Coord>(result2);
+                            SoundManager.Instance.InitSphere(j,coords);
+                        }
+                    }
+                }
+            }
+            
+        }
     }
 }
+
+[Serializable]
+public class Coord
+{
+    public float x;
+    public float y;
+    public float z;
+
+    public Coord(float _x, float _y, float _z)
+    {
+        x = _x;
+        y = _y;
+        z = _z;
+    }
+}
+
