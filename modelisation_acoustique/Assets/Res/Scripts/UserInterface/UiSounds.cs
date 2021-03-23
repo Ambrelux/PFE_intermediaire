@@ -30,7 +30,7 @@ namespace Res.Scripts.UserInterface
         {
             if (Input.GetKeyDown(key))
             {
-                StartCoroutine(ApiRequest.FindSound());
+                StartCoroutine(ApiRequest.FindSoundBySceneId());
                 ChangeState();
             }
         }
@@ -55,7 +55,6 @@ namespace Res.Scripts.UserInterface
         public void ReplaySound()
         {
             int number;
-            Coord[][] list;
             string text = inputField.GetComponent<TMP_InputField>().text;
             if (int.TryParse(text, out number))
             {
@@ -63,10 +62,8 @@ namespace Res.Scripts.UserInterface
                 {
                     if (sounds[i]._id == number)
                     {
-                        Debug.Log("ok");
                         for (int j = 0; j < sounds[i].spheres.Count; j++)
                         {
-                            Debug.Log("oook");
                             var result = sounds[i].spheres[j];
                             var result1 = result.Remove(result.Length - 1);
                             var result2 = result1.Remove(0, 16);

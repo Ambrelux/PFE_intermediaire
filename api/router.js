@@ -31,6 +31,15 @@ router.get("/findSoundById/:id", async (ctx, next) => {
     }
 });
 
+router.get("/findSoundBySceneId/:scene", async (ctx, next) => {
+    try {
+        const result = await Sound.find({scene:{$eq: parseInt(ctx.params.scene,10)}}).exec();
+        ctx.body = result;
+    } catch (error) {
+        ctx.body = "error while finding sound by scene"
+    }
+});
+
 router.get("/deleteSounds", async(ctx,next) =>{
    try{
        const result = await Sound.deleteMany({ frequency: "0" })  .exec();

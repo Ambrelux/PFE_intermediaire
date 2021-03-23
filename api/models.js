@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 const soundSchema = new Schema({
     _id: Number,
+    scene: Number,
     date: String,
     frequency: Number,
     spheres: [String]

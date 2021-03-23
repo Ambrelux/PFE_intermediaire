@@ -145,6 +145,9 @@
               <e p="AcousticCalculation.cs" t="Include" />
               <e p="ObjectData.cs" t="Include" />
             </e>
+            <e p="Sounds" t="Include">
+              <e p="SoundData.cs" t="Include" />
+            </e>
             <e p="UserInterface" t="Include">
               <e p="UiManager.cs" t="Include" />
               <e p="UiSounds.cs" t="Include" />

@@ -11,6 +11,8 @@ using UnityEditor;
 using UnityEngine.Networking;
 using Random = UnityEngine.Random;
 using Res.Scripts.UserInterface;
+using UnityEngine.SceneManagement;
+
 namespace Res.Scripts.API
 {
     public class ApiRequest
@@ -27,9 +29,8 @@ namespace Res.Scripts.API
                 spheresCoord.Add(JsonUtility.ToJson(sphereCoords));
             }
 
-            var newSound = new Sound(250, spheresCoord);
+            var newSound = new Sound(SceneManager.GetActiveScene().buildIndex,SoundData.Instance.Frequency, spheresCoord);
             var json = JsonUtility.ToJson(newSound);
-            Debug.Log(json);
             return json;
         }
         
@@ -53,15 +54,6 @@ namespace Res.Scripts.API
                 Debug.Log("All OK");
                 Debug.Log("Status Code: " + request.responseCode);
             }
-            
-            // string path = "Assets/Res/Scripts/API/datainsert.txt";
-            //         
-            // //Write some text to the test.txt file
-            // StreamWriter writer = new StreamWriter(path, true);
-            // writer.WriteLine(json);
-            // writer.Close();
-            //
-            // yield return null;
         }
 
         public static IEnumerator FindSound()
@@ -78,18 +70,27 @@ namespace Res.Scripts.API
                 {
                     string result = www.downloadHandler.text;
                     UiSounds.sounds = JsonHelper.getJsonArray<Sound>(result);
-                    // Sound[] sounds = JsonHelper.getJsonArray<Sound> (result);
-                    // Debug.Log(sounds[0].spheres[0]);
-                    // Debug.Log(sounds[1]._id);
-                    // Debug.Log(result);
-                    // string path = "Assets/Res/Scripts/API/datafind.txt";
-                    //
-                    // //Write some text to the test.txt file
-                    // StreamWriter writer = new StreamWriter(path, true);
-                    // writer.WriteLine(result);
-                    // writer.Close();
                 }
             }
+        }
+
+        public static IEnumerator FindSoundBySceneId()
+        {
+            string url = "http://localhost:3000/findSoundBySceneId/" + SceneManager.GetActiveScene().buildIndex;
+            using (UnityWebRequest www = UnityWebRequest.Get(url))
+            {
+                yield return www.SendWebRequest();
+        
+                if (www.isNetworkError || www.isHttpError)
+                {
+                    Debug.Log(www.error);
+                }
+                else
+                {
+                    string result = www.downloadHandler.text;
+                    UiSounds.sounds = JsonHelper.getJsonArray<Sound>(result);
+                }
+            }            
         }
     }
 }
@@ -110,8 +111,6 @@ public class JsonHelper
     }
 }
 
-
-
 /*
  *
  *
@@ -125,13 +124,15 @@ public class JsonHelper
 public class Sound
 {
     public int _id;
+    public int scene;
     public string date;
     public int frequency;
     public List<string> spheres;
 
-    public Sound(int _frequency, List<string> _spheres)
+    public Sound(int _scene, int _frequency, List<string> _spheres)
     {
         _id = Random.Range(0,999999);
+        scene = _scene;
         date = DateTime.Now.ToString(CultureInfo.InvariantCulture);
         frequency = _frequency;
         spheres = _spheres;
@@ -148,6 +149,9 @@ public class SphereCoords
         sphereCoords = _coords;
     }
 }
+
+
+
 // public class Sound
 // {
 //     public int id;
@@ -178,3 +182,23 @@ public class SphereCoords
 //         spheres = _spheres;
 //     }
 // }
+
+// string path = "Assets/Res/Scripts/API/datainsert.txt";
+//         
+// //Write some text to the test.txt file
+// StreamWriter writer = new StreamWriter(path, true);
+// writer.WriteLine(json);
+// writer.Close();
+//
+// yield return null;
+
+// Sound[] sounds = JsonHelper.getJsonArray<Sound> (result);
+// Debug.Log(sounds[0].spheres[0]);
+// Debug.Log(sounds[1]._id);
+// Debug.Log(result);
+// string path = "Assets/Res/Scripts/API/datafind.txt";
+//
+// //Write some text to the test.txt file
+// StreamWriter writer = new StreamWriter(path, true);
+// writer.WriteLine(result);
+// writer.Close();
