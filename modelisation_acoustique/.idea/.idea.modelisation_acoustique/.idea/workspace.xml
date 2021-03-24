@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Brown_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Brown_snaps001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +44,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/.editorconfig" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/.editorconfig" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Wave.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,6 +71,11 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Shaders/Outline.shader" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
@@ -165,7 +176,8 @@
       <workItem from="1616331736226" duration="11569000" />
       <workItem from="1616404557154" duration="15643000" />
       <workItem from="1616520054054" duration="8422000" />
-      <workItem from="1616576635771" duration="2251000" />
+      <workItem from="1616576635771" duration="3057000" />
+      <workItem from="1616589086783" duration="5190000" />
     </task>
     <servers />
   </component>
