@@ -20,10 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/Manager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/Replay_API.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/Replay_API.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/Sound_Configuration.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/Sound_Configuration.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Brown_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Brown_snaps001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +55,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,6 +65,7 @@
     <setting file="file://$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Wave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -70,11 +82,15 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiReplaySounds.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Prefab/Outline.shader" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
@@ -177,7 +193,8 @@
       <workItem from="1616520054054" duration="8422000" />
       <workItem from="1616576635771" duration="3057000" />
       <workItem from="1616589086783" duration="7966000" />
-      <workItem from="1616660441438" duration="4758000" />
+      <workItem from="1616660441438" duration="5516000" />
+      <workItem from="1616676527973" duration="4740000" />
     </task>
     <servers />
   </component>

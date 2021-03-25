@@ -404,23 +404,6 @@ namespace Res.Scripts.Object
                      
             }
         }
-        
-        // void OnMouseOver()
-        // {
-        //     if (transform.CompareTag("Furniture"))
-        //     {
-        //         Debug.Log("dessus");                
-        //     }
-        //
-        // }
-        //
-        // void OnMouseExit()
-        // {
-        //     if (transform.CompareTag("Furniture"))
-        //     {
-        //         Debug.Log("pas dessus");                
-        //     }
-        // }
     }
     
 }

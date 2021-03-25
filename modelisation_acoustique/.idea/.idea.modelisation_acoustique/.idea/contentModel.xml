@@ -144,7 +144,9 @@
             <e p="Object" t="Include">
               <e p="AcousticCalculation.cs" t="Include" />
               <e p="ClickToModify.cs" t="Include" />
+              <e p="ObjectController.cs" t="Include" />
               <e p="ObjectData.cs" t="Include" />
+              <e p="OutlineObject.cs" t="Include" />
             </e>
             <e p="Sounds" t="Include">
               <e p="SoundData.cs" t="Include" />
