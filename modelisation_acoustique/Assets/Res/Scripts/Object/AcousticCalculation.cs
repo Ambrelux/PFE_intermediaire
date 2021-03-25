@@ -8,9 +8,9 @@ namespace Res.Scripts.Object
         private static AcousticCalculation _instance;
         public static AcousticCalculation Instance { get { return _instance; } }
         
-        private List<GameObject> _materialList;
-        private List<GameObject> _furnitureList;
-        private List<GameObject> _personList;
+        public static List<GameObject> _materialList;
+        public static List<GameObject> _furnitureList;
+        public static List<GameObject> _personList;
         private float _reverbDistance;
         public float roomVolume=200f;
         
@@ -46,7 +46,7 @@ namespace Res.Scripts.Object
             return totalAbsorptionArea;
         }
 
-        private static void AddGameObjectInList(List<GameObject> list, string tag)
+        public void AddGameObjectInList(List<GameObject> list, string tag)
         {
             list.Clear();
             list.AddRange(GameObject.FindGameObjectsWithTag(tag));

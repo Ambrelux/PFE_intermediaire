@@ -16,7 +16,7 @@ namespace Res.Scripts.Object
 
         private void Awake()
         {
-            _materialName = "Default";
+            _materialName = "Concrete";
         }
 
         private void Start()
@@ -41,7 +41,7 @@ namespace Res.Scripts.Object
             AcousticCalculation.Instance.UpdateAcousticCalculation();
         }
 
-        private float GetAbsorptionCoef()
+        public float GetAbsorptionCoef()
         {
             switch (SoundData.Instance.Frequency)
             {
@@ -84,7 +84,7 @@ namespace Res.Scripts.Object
                         case "Fabric armchair":
                             return 0.15f;
                              
-                        case "Plastic armchair":
+                        case "Plastic chair":
                             return 0.09f;
                              
                         case "Fiberboard table":
@@ -143,7 +143,7 @@ namespace Res.Scripts.Object
                         case "Fabric armchair":
                             return 0.20f;
                              
-                        case "Plastic armchair":
+                        case "Plastic chair":
                             return 0.13f;
                              
                         case "Fiberboard table":
@@ -202,7 +202,7 @@ namespace Res.Scripts.Object
                         case "Fabric armchair":
                             return 0.3f;
                              
-                        case "Plastic armchair":
+                        case "Plastic chair":
                             return 0.15f;
                              
                         case "Fiberboard table":
@@ -261,7 +261,7 @@ namespace Res.Scripts.Object
                         case "Fabric armchair":
                             return 0.40f;
                              
-                        case "Plastic armchair":
+                        case "Plastic chair":
                             return 0.15f;
                              
                         case "Fiberboard table":
@@ -320,7 +320,7 @@ namespace Res.Scripts.Object
                         case "Fabric armchair":
                             return 0.5f;
                              
-                        case "Plastic armchair":
+                        case "Plastic chair":
                             return 0.11f;
                              
                         case "Fiberboard table":
@@ -379,7 +379,7 @@ namespace Res.Scripts.Object
                         case "Fabric armchair":
                             return 0.6f;
                              
-                        case "Plastic armchair":
+                        case "Plastic chair":
                             return 0.07f;
                              
                         case "Fiberboard table":
