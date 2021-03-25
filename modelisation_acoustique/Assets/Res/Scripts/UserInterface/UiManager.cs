@@ -6,7 +6,7 @@ namespace Res.Scripts.UserInterface
     public class UiManager : MonoBehaviour
     {
         public KeyCode key = KeyCode.LeftControl;
-        private void ChangeState()
+        public void ChangeState()
         {
             foreach (Transform child in transform)
             {

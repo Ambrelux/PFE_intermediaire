@@ -69,7 +69,7 @@ namespace Res.Scripts.API
                 else
                 {
                     string result = www.downloadHandler.text;
-                    UiSounds.sounds = JsonHelper.getJsonArray<Sound>(result);
+                    UiReplaySounds.sounds = JsonHelper.getJsonArray<Sound>(result);
                 }
             }
         }
@@ -88,7 +88,7 @@ namespace Res.Scripts.API
                 else
                 {
                     string result = www.downloadHandler.text;
-                    UiSounds.sounds = JsonHelper.getJsonArray<Sound>(result);
+                    UiReplaySounds.sounds = JsonHelper.getJsonArray<Sound>(result);
                 }
             }            
         }

@@ -6,7 +6,7 @@ namespace Res.Scripts.Object
     public class ClickToModify : MonoBehaviour {
         void Update()
         {
-            if (!UiObject.Instance.uiObjectState && !UiWalls.Instance.uiWallsState)
+            if (!UiObject.Instance.uiObjectState && !UiWalls.Instance.uiWallsState && !UiReplaySounds.Instance.uiReplaySoundsState && !UiSounds.Instance.uiSoundsState)
             {
                 if (Input.GetMouseButtonDown(0))
                 {

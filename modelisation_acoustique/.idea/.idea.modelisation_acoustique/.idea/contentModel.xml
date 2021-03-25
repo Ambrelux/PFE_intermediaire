@@ -152,6 +152,7 @@
             <e p="UserInterface" t="Include">
               <e p="UiManager.cs" t="Include" />
               <e p="UiObject.cs" t="Include" />
+              <e p="UiReplaySounds.cs" t="Include" />
               <e p="UiSounds.cs" t="Include" />
               <e p="UiWalls.cs" t="Include" />
             </e>
