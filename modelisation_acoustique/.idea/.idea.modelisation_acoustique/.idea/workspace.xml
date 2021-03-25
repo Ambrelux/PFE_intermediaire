@@ -20,20 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/Manager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/Replay_API.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/Replay_API.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/Sound_Configuration.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/Sound_Configuration.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Brown_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Brown_snaps001.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/DarkGray_snaps001.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +182,8 @@
       <workItem from="1616576635771" duration="3057000" />
       <workItem from="1616589086783" duration="7966000" />
       <workItem from="1616660441438" duration="5516000" />
-      <workItem from="1616676527973" duration="4740000" />
+      <workItem from="1616676527973" duration="5499000" />
+      <workItem from="1616695004154" duration="913000" />
     </task>
     <servers />
   </component>

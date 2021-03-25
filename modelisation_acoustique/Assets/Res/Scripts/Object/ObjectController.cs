@@ -7,7 +7,7 @@ using UnityEngine;
 public class ObjectController : MonoBehaviour
 {
         public float speed = 5f;
-        private GameObject _movableObject;
+        public GameObject _movableObject;
         private void Update()
         {
             OnClickSelectObject();
@@ -43,10 +43,9 @@ public class ObjectController : MonoBehaviour
 
         private void OnClickSelectObject()
         {
-            if (!UiObject.Instance.uiObjectState && !UiWalls.Instance.uiWallsState && !UiReplaySounds.Instance.uiReplaySoundsState && !UiSounds.Instance.uiSoundsState)
-            {
-                if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0))
                 {
+                    Debug.Log("testgyg");
                     RaycastHit hit;
                     Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                     if (Physics.Raycast(ray, out hit, 100.0f))
@@ -54,10 +53,10 @@ public class ObjectController : MonoBehaviour
                         if (hit.collider.gameObject.CompareTag("Furniture"))
                         {
                             _movableObject = hit.collider.gameObject;
+                            Debug.Log("test");
                         }
                     }
                 }
-            }
         }
         
 }
