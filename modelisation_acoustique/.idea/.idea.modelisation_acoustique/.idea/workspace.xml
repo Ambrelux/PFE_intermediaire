@@ -20,8 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Workspace_Asset/_SNAPS_PrototypingAssets/ModernOffice_Interior/Materials/Gray_snaps001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,47 +50,32 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/.editorconfig" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Wave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/CastingToObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/.editorconfig" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/SelectedFlash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Wave.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Uitest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Shaders/Outline.shader" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiReplaySounds.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Prefab/Outline.shader" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/CastingToObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/SelectedFlash.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -111,28 +107,24 @@
       <option name="WORKING_DIRECTORY" value="D:\ESME\INGE3\PROJET\PFE\modelisation_acoustique\Builds" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <list />
-      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <list />
-      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -184,11 +176,12 @@
       <workItem from="1616660441438" duration="5516000" />
       <workItem from="1616676527973" duration="5499000" />
       <workItem from="1616695004154" duration="913000" />
+      <workItem from="1616750845432" duration="15634000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -197,12 +190,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

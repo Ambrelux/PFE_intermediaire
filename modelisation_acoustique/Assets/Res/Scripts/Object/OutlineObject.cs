@@ -1,29 +1,30 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class OutlineObject : MonoBehaviour
+namespace Res.Scripts.Object
 {
-    Material material;
-    
-    void Start () {
-        material = GetComponentInChildren<Renderer>().material;
-    }
-    
-    void OnMouseOver()
+    public class OutlineObject : MonoBehaviour
     {
-        if (transform.CompareTag("Furniture"))
-        {
-            material.SetFloat("_OutlineWidth", 0.1f);
+        Material material;
+    
+        void Start () {
+            material = GetComponentInChildren<Renderer>().material;
         }
     
-    }
-    
-    void OnMouseExit()
-    {
-        if (transform.CompareTag("Furniture"))
+        void OnMouseOver()
         {
-            material.SetFloat("_OutlineWidth", 0f);               
+            if (transform.CompareTag("Furniture"))
+            {
+                material.SetFloat("_OutlineWidth", 0.1f);
+            }
+    
+        }
+    
+        void OnMouseExit()
+        {
+            if (transform.CompareTag("Furniture"))
+            {
+                material.SetFloat("_OutlineWidth", 0f);               
+            }
         }
     }
 }

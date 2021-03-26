@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Res.Scripts.Object;
-using Res.Scripts.UserInterface;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ObjectController : MonoBehaviour
+namespace Res.Scripts.Object
 {
+    public class ObjectController : MonoBehaviour
+    {
         public float speed = 5f;
         public GameObject _movableObject;
         private void Update()
@@ -40,23 +38,25 @@ public class ObjectController : MonoBehaviour
             }
         }
 
+     
 
         private void OnClickSelectObject()
         {
             if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("testgyg");
+                RaycastHit hit;
+                Ray ray = UnityEngine.Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out hit, 100.0f))
                 {
-                    Debug.Log("testgyg");
-                    RaycastHit hit;
-                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                    if (Physics.Raycast(ray, out hit, 100.0f))
+                    if (hit.collider.gameObject.CompareTag("Furniture"))
                     {
-                        if (hit.collider.gameObject.CompareTag("Furniture"))
-                        {
-                            _movableObject = hit.collider.gameObject;
-                            Debug.Log("test");
-                        }
+                        _movableObject = hit.collider.gameObject;
+                        Debug.Log("test");
                     }
                 }
+            }
         }
         
+    }
 }

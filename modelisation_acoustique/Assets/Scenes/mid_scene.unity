@@ -1278,6 +1278,27 @@ MonoBehaviour:
   absorptionCoef: 0.55
   surface: 1
   _materialName: 
+--- !u!114 &238828907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238828901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1442767b5a109734ab41979068604818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedObject: {fileID: 238828901}
+  redCol: 0
+  greenCol: 0
+  blueCol: 0
+  lookingAtObject: 0
+  flashingIn: 1
+  startedFlashing: 0
+  materialList: []
+  materialsColors: []
 --- !u!1001 &257431235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7474,6 +7495,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2754400153201317759, guid: 42ef92fe81dc4e24086ee7c8c5df287e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.965926
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754400153201317759, guid: 42ef92fe81dc4e24086ee7c8c5df287e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2588186
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754400153201317759, guid: 42ef92fe81dc4e24086ee7c8c5df287e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -30
+      objectReference: {fileID: 0}
     - target: {fileID: 2754400153856594633, guid: 42ef92fe81dc4e24086ee7c8c5df287e,
         type: 3}
       propertyPath: m_Pivot.x
